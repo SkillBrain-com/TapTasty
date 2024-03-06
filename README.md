@@ -1,4 +1,4 @@
-# **Creating automation for application TapTasty**
+# **Creating automation framework for application TapTasty**
 
 Create a new repository on the command line
 
