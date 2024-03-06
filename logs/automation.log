@@ -1,0 +1,12 @@
+15:02:26.513 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+15:02:26.518 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+15:02:26.518 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+15:02:26.522 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Dante\AppData\Local\JetBrains\IdeaIC2023.2\temp-testng-customsuite.xml
+
+15:02:33.819 [main] INFO  testCases.TC_001_CheckFavorite - **** starting TC_001_CheckFavorite  *****
+15:02:33.820 [main] DEBUG testCases.TC_001_CheckFavorite - application logs started......
+15:02:33.888 [main] INFO  testCases.TC_001_CheckFavorite - Clicked on Login button
+15:02:33.888 [main] INFO  testCases.TC_001_CheckFavorite - Going to login page
+15:02:53.467 [main] ERROR testCases.TC_001_CheckFavorite - test failed..
+15:02:53.467 [main] DEBUG testCases.TC_001_CheckFavorite - debug logs....
