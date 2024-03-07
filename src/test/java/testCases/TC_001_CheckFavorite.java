@@ -6,6 +6,14 @@ import pageObjects.HomePage;
 import pageObjects.LogInPage;
 import testBase.BaseClass;
 
+import static org.testng.Assert.fail;
+
+//TC_001_CheckFavorite
+//1. Home page is opened;
+//2. User logged in;
+//3. Go to the menu and select a product;
+//4. Click on favorite button;
+
 public class TC_001_CheckFavorite extends BaseClass{
 
 	@Test
@@ -27,21 +35,21 @@ public class TC_001_CheckFavorite extends BaseClass{
 			regpage.password("testare");
 
 			regpage.clickLogin();
-			Thread.sleep(2000);
+			//Thread.sleep(2000);
 
 			regpage.clickmenu();
-			Thread.sleep(6000);
+			//Thread.sleep(6000);
 			regpage.aleggustari();
-			Thread.sleep(6000);
+			//Thread.sleep(6000);
 			regpage.cartofi();
-			Thread.sleep(6000);
+			//Thread.sleep(6000);
 
 		}
 		catch(Exception e)
 		{
 			logger.error("test failed..");
 			logger.debug("debug logs....");
-			Assert.fail();
+			fail();
 		}
 
 		logger.debug("application logs end.......");
