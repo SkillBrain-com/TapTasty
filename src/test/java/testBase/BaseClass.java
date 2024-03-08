@@ -15,8 +15,7 @@ public class BaseClass {
 	public Logger logger;
 
 	@BeforeClass
-	public void setup()
-	{
+	public void setup(){
 		logger=LogManager.getLogger(this.getClass());//Log4j
 
 		driver=new ChromeDriver();

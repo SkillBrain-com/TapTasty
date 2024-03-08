@@ -1,0 +1,56 @@
+19:22:22.877 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.afterMethode()[pri:0, instance:null] 145901492
+19:22:22.880 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+19:22:22.880 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+19:22:22.880 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+19:22:22.880 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+19:22:22.883 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE RegisterTest.registerTest()[pri:0, instance:taptastytests.RegisterTest@797cf65c] 1059771806
+19:22:22.883 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+19:22:22.884 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+19:22:22.884 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+19:22:22.884 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+19:22:22.887 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+19:22:24.073 [main] INFO  utils.BasePage - **** starting TC_RegisterByEmail  *****
+19:22:24.073 [main] DEBUG utils.BasePage - application logs started......
+19:22:24.073 [main] INFO  utils.BasePage - Log in
+19:22:57.691 [main] ERROR utils.BasePage - test failed..
+19:22:57.691 [main] DEBUG utils.BasePage - debug logs....
+19:24:22.581 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml"
+19:24:22.711 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.beforeMethode()[pri:0, instance:null] 1881771703
+19:24:22.711 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+19:24:22.713 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+19:24:22.713 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+19:24:22.713 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+19:24:22.714 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.afterMethode()[pri:0, instance:null] 145901492
+19:24:22.714 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+19:24:22.714 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+19:24:22.714 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+19:24:22.714 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+19:24:22.719 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE RegisterTest.registerTest()[pri:0, instance:taptastytests.RegisterTest@4982cc36] 254847864
+19:24:22.719 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+19:24:22.719 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+19:24:22.719 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+19:24:22.719 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+19:24:22.722 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+19:24:24.004 [main] INFO  utils.BasePage - **** starting TC_RegisterByEmail  *****
+19:24:24.004 [main] DEBUG utils.BasePage - application logs started......
+19:24:24.004 [main] INFO  utils.BasePage - Log in
+19:24:25.309 [main] INFO  utils.BasePage - Clicked on Register by email
+19:24:27.976 [main] DEBUG utils.BasePage - application logs end.......
+19:24:27.976 [main] INFO  utils.BasePage - **** finished TC_RegisterByEmail *****
+19:27:02.321 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml"
+19:27:02.443 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.beforeMethode()[pri:0, instance:null] 1881771703
+19:27:02.443 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+19:27:02.444 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+19:27:02.444 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+19:27:02.444 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+19:27:02.445 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.afterMethode()[pri:0, instance:null] 145901492
+19:27:02.445 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+19:27:02.445 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+19:27:02.445 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+19:27:02.445 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+19:27:02.449 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE RegisterTest.registerTest()[pri:0, instance:taptastytests.RegisterTest@512535ff] 382932289
+19:27:02.449 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING

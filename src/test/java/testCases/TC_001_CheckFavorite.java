@@ -6,11 +6,10 @@ import pageObjects.HomePage;
 import pageObjects.LogInPage;
 import testBase.BaseClass;
 
-public class TC_001_CheckFavorite extends BaseClass{
+public class TC_001_CheckFavorite extends BaseClass {
 
 	@Test
-	public void verify_cart()
-	{
+	public void verify_cart() {
 		logger.info("**** starting TC_001_CheckFavorite  *****");
 
 		logger.debug("application logs started......");
