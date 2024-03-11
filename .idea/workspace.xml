@@ -5,11 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c39a5787-d4fb-4065-8c64-017357ed24a5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/taptasty/AddProductToFavorit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taptasty/DeleteProductFromFavorite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/taptastytests/AddProductToFavoriteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/taptastytests/DeleteProductFromFavoriteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/automation-2024-03-08.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation-2024-03-08.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/taptasty/FirstProductToCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taptasty/FirstProductToCart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/taptasty/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taptasty/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/taptastytests/FirstProductToCartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/taptastytests/FirstProductToCartTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/taptastytests/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/taptastytests/LoginPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/taptastytests/RegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/taptastytests/RegisterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-taptastytests.RegisterTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-taptastytests.RegisterTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,22 +54,140 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven.taptasty [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TestNG.FirstProductToCartTest.firstProductTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginPageTest.loginPage.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.RegisterTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.RegisterTest.registerTest.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;MorzsaAlex&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/TapTasty/TapTasty&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/mircea.dragomir/Documents/Administrativ/Shared/Skillbrain/Internship/TapTasty/Taptasty/src/main/java/org/example/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.taptasty [clean,install].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.AddProductToFavoriteTest.addProductToFavorite.executor": "Run",
+    "TestNG.DeleteProductFromFavoriteTest.deleteProductFromFavorite.executor": "Run",
+    "TestNG.FirstProductToCartTest.firstProductTest.executor": "Run",
+    "TestNG.LoginPageTest.loginPage.executor": "Run",
+    "TestNG.RegisterTest.executor": "Run",
+    "TestNG.RegisterTest.registerTest.executor": "Run",
+    "git-widget-placeholder": "MorzsaAlex",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/TapTasty/TapTasty",
+    "onboarding.tips.debug.path": "C:/Users/mircea.dragomir/Documents/Administrativ/Shared/Skillbrain/Internship/TapTasty/Taptasty/src/main/java/org/example/Main.java"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="TestNG.DeleteProductFromFavoriteTest.deleteProductFromFavorite">
+    <configuration name="AddProductToFavoriteTest.addProductToFavorite" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="taptasty" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="taptastytests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="taptastytests" />
+      <option name="MAIN_CLASS_NAME" value="taptastytests.AddProductToFavoriteTest" />
+      <option name="METHOD_NAME" value="addProductToFavorite" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteProductFromFavoriteTest.deleteProductFromFavorite" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="taptasty" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="taptastytests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="taptastytests" />
+      <option name="MAIN_CLASS_NAME" value="taptastytests.DeleteProductFromFavoriteTest" />
+      <option name="METHOD_NAME" value="deleteProductFromFavorite" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstProductToCartTest.firstProductTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="taptasty" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="taptastytests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="taptastytests" />
+      <option name="MAIN_CLASS_NAME" value="taptastytests.FirstProductToCartTest" />
+      <option name="METHOD_NAME" value="firstProductTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTest.loginPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="taptasty" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="taptastytests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="taptastytests" />
+      <option name="MAIN_CLASS_NAME" value="taptastytests.LoginPageTest" />
+      <option name="METHOD_NAME" value="loginPage" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RegisterTest.registerTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="taptasty" />
       <shortenClasspath name="NONE" />
@@ -109,6 +240,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DeleteProductFromFavoriteTest.deleteProductFromFavorite" />
+        <item itemvalue="TestNG.AddProductToFavoriteTest.addProductToFavorite" />
+        <item itemvalue="TestNG.LoginPageTest.loginPage" />
+        <item itemvalue="TestNG.FirstProductToCartTest.firstProductTest" />
         <item itemvalue="TestNG.RegisterTest.registerTest" />
       </list>
     </recent_temporary>
@@ -139,6 +274,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/taptasty/FirstProductToCart.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/taptasty/FirstProductToCart.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

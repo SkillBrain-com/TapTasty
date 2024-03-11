@@ -19,7 +19,7 @@ public class RegisterTest extends BasePage {
         logger.debug("application logs started......");
 
         try {
-            logger.info("Log in");
+
             driver.get("https://ristorantelavitaebella.taptasty.com/");
             DataGeneration dataGeneration = DataGeneration.getInstance();
             String passwordSaved = dataGeneration.passwordLogin;

@@ -1,0 +1,57 @@
+17:28:34.969 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+17:28:34.971 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+17:28:34.971 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+17:28:34.977 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+17:28:37.138 [main] INFO  utils.BasePage - Log in
+17:28:38.305 [main] INFO  utils.BasePage - Log in
+17:28:54.915 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml"
+17:28:55.040 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.beforeMethode()[pri:0, instance:null] 1881771703
+17:28:55.041 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+17:28:55.043 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+17:28:55.043 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+17:28:55.043 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+17:28:55.044 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.afterMethode()[pri:0, instance:null] 145901492
+17:28:55.044 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+17:28:55.044 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+17:28:55.044 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+17:28:55.044 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+17:28:55.048 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AddProductToFavoriteTest.addProductToFavorite()[pri:0, instance:taptastytests.AddProductToFavoriteTest@63798ca7] -612196897
+17:28:55.048 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+17:28:55.048 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+17:28:55.048 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+17:28:55.048 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+17:28:55.054 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+17:28:57.095 [main] INFO  utils.BasePage - Log in
+17:28:58.185 [main] INFO  utils.BasePage - Log in
+17:33:20.594 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml"
+17:33:20.730 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.beforeMethode()[pri:0, instance:null] 1881771703
+17:33:20.730 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+17:33:20.733 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+17:33:20.733 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+17:33:20.733 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+17:33:20.734 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.afterMethode()[pri:0, instance:null] 145901492
+17:33:20.734 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+17:33:20.734 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+17:33:20.734 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+17:33:20.734 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+17:33:20.739 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AddProductToFavoriteTest.addProductToFavorite()[pri:0, instance:taptastytests.AddProductToFavoriteTest@324a0017] -1437396657
+17:33:20.739 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+17:33:20.739 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+17:33:20.740 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+17:33:20.740 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+17:33:20.746 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+17:33:21.920 [main] INFO  utils.BasePage - **** starting TC_RegisterByEmail  *****
+17:33:21.920 [main] DEBUG utils.BasePage - application logs started......
+17:33:22.859 [main] INFO  utils.BasePage - Log in
+17:33:24.023 [main] INFO  utils.BasePage - Add product to favorite
+17:33:30.283 [main] DEBUG utils.BasePage - application logs end.......
+17:33:30.283 [main] INFO  utils.BasePage - **** finished TC_RegisterByEmail *****
+17:34:45.963 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml"
+17:34:46.093 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.beforeMethode()[pri:0, instance:null] 1881771703
+17:34:46.093 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
