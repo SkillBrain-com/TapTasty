@@ -5,6 +5,8 @@ import taptasty.LoginPage;
 import utils.BasePage;
 import utils.DataGeneration;
 
+//Login on the page with valid email
+
 public class LoginPageTest extends BasePage {
 
     @Test

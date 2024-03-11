@@ -145,7 +145,11 @@
 &lt;suite name=&quot;Default Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;TapTasty&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;taptastytests.RegisterTest&quot;/&gt;
+      &lt;class name=&quot;taptastytests.RegisterTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;registerTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- taptastytests.RegisterTest --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- TapTasty --&gt;
 &lt;/suite&gt; &lt;!-- Default Suite --&gt;
@@ -189,12 +193,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'registerTest')
 data.setCell(0, 2, 'taptastytests.RegisterTest')
-data.setCell(0, 3, 5090);
+data.setCell(0, 3, 6192);
 window.suiteTableData['Default_Suite']= { tableData: data, tableDiv: 'times-div-Default_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-Default_Suite">
               </div> <!-- times-div-Default_Suite -->
             </div> <!-- times-div -->
@@ -227,11 +231,11 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">registerTest</span>
-                <span class="method-start">1224 ms</span>
+                <span class="method-start">1315 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethode</span>
-                <span class="method-start">6315 ms</span>
+                <span class="method-start">7509 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

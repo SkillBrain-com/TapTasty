@@ -9,6 +9,7 @@ import java.sql.Time;
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
+
 public class FirstProductToCart {
 
     By location = By.xpath("(//div[@class = 'wrapperImg'])[1]");

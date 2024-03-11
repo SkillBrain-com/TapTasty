@@ -7,6 +7,8 @@ import taptasty.RegisterPage;
 import utils.BasePage;
 import utils.DataGeneration;
 
+//Register a new user by email
+
 public class RegisterTest extends BasePage {
 
     @Test

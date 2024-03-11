@@ -5,6 +5,8 @@ import taptasty.FirstProductToCart;
 import taptasty.LoginPage;
 import utils.BasePage;
 
+//Add to Cart first product
+
 public class FirstProductToCartTest extends BasePage {
     @Test
     public void firstProductTest() throws InterruptedException {
