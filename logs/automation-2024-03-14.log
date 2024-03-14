@@ -1,0 +1,55 @@
+18:21:18.645 [main] DEBUG utils.BasePage - application logs started......
+18:21:24.996 [main] DEBUG utils.BasePage - application logs end.......
+18:21:24.997 [main] INFO  utils.BasePage - **** finished TC_ChangePersonalInformation *****
+18:22:51.232 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml"
+18:22:51.367 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.beforeMethode()[pri:0, instance:null] 1881771703
+18:22:51.367 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+18:22:51.369 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+18:22:51.369 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+18:22:51.370 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+18:22:51.371 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.afterMethode()[pri:0, instance:null] 145901492
+18:22:51.371 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+18:22:51.371 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+18:22:51.371 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+18:22:51.371 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+18:22:51.375 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE ChangePersonalInformationTest.changePersonalInformation()[pri:0, instance:taptastytestcont.ChangePersonalInformationTest@253d9f73] -720208124
+18:22:51.375 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+18:22:51.375 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+18:22:51.375 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+18:22:51.375 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+18:22:51.381 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+18:22:52.503 [main] INFO  utils.BasePage - **** starting TC_ChangePersonalInformation  *****
+18:22:52.503 [main] DEBUG utils.BasePage - application logs started......
+18:22:53.729 [main] INFO  utils.BasePage - Clicked on Register by email
+18:22:54.652 [main] INFO  utils.BasePage - Change personal info
+18:22:58.806 [main] DEBUG utils.BasePage - application logs end.......
+18:22:58.806 [main] INFO  utils.BasePage - **** finished TC_ChangePersonalInformation *****
+18:23:34.874 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml"
+18:23:35.009 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.beforeMethode()[pri:0, instance:null] 1881771703
+18:23:35.010 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+18:23:35.012 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+18:23:35.012 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+18:23:35.012 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+18:23:35.012 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.afterMethode()[pri:0, instance:null] 145901492
+18:23:35.013 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+18:23:35.013 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+18:23:35.013 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+18:23:35.013 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+18:23:35.016 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE ChangePersonalInformationTest.changePersonalInformation()[pri:0, instance:taptastytestcont.ChangePersonalInformationTest@126945f9] -1036114550
+18:23:35.016 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+18:23:35.016 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+18:23:35.016 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+18:23:35.017 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+18:23:35.023 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+18:23:36.292 [main] INFO  utils.BasePage - **** starting TC_ChangePersonalInformation  *****
+18:23:36.292 [main] DEBUG utils.BasePage - application logs started......
+18:23:37.456 [main] INFO  utils.BasePage - Log in
+18:23:38.369 [main] INFO  utils.BasePage - Change personal info
+18:23:42.549 [main] DEBUG utils.BasePage - application logs end.......
+18:23:42.550 [main] INFO  utils.BasePage - **** finished TC_ChangePersonalInformation *****
+18:25:50.330 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml"
+18:25:50.473 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.beforeMethode()[pri:0, instance:null] 1881771703

@@ -15,6 +15,10 @@ public class DataGeneration {
 
     public String loginUserName;
     public String passwordLogin;
+    public String address;
+    public String nrAddress;
+    public String city;
+    public String county;
 
 
 
@@ -32,6 +36,12 @@ public class DataGeneration {
         contactMessage = faker.lorem().sentence(15);
         loginUserName = faker.name().firstName();
         passwordLogin = faker.internet().password(6,10);
+        address = faker.address().fullAddress();
+        nrAddress = faker.address().buildingNumber();
+        city = faker.address().city();
+        county = faker.address().state();
+
+
 
     }
 
