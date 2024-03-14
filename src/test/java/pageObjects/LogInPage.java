@@ -47,7 +47,7 @@ public class LogInPage extends BasePage {
     }
 
      */
-    @FindBy(xpath = "//div[@class='right']//a[@class='link'][normalize-space()='Cont']//*[name()='svg']//*[name()='g' and @id='user-_1_']//*[name()='path' and @id='Path_35617']")
+    @FindBy(xpath = "//div[@class='right']//a[@class='link'][normalize-space()='Cont']")
     WebElement contSelect;
     public void contInformation(){
         contSelect.click();
@@ -55,7 +55,8 @@ public class LogInPage extends BasePage {
 
     @FindBy(xpath = "//a[@href='/personal-information/']//div[@class='item-content']//div[@class='item-inner']")
     WebElement personalInformationSelect;
-    public void personalinformation (){ personalInformationSelect.click();
+    public void personalinformation (){
+        personalInformationSelect.click();
 
     }
 
