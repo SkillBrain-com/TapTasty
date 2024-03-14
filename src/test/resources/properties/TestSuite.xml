@@ -13,6 +13,14 @@
                     </include>
                 </methods>
             </class>
+            <class name="tests.Test_Descarca_datele_personale" >
+                <methods>
+                    <include name="login_email_and_password">
+                        <parameter name="username" value="valicubalaurualb06@gmail.com" />
+                        <parameter name="password" value="varzamurata666" />
+                    </include>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>

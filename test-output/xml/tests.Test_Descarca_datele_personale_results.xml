@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Smoke Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="16.977">
+    <properties></properties>
+
+
+
+            <testcase
+                name="login_email_and_password"
+                time="16.977"
+                classname="tests.Test_Descarca_datele_personale">
+            </testcase>
+</testsuite>

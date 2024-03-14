@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c39a5787-d4fb-4065-8c64-017357ed24a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/AccountRegistrationPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/BasePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/HomePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/LogInPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testBase/BaseClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/TC_001_CheckFavorite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Login_Page_methods_xpaths/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Login_Page_methods_xpaths/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/properties/TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/properties/TestSuite.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,12 +45,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/GG/Desktop/teme qa/INTERNSHIP/RepoAutomatedTests/TapTasty/src/test/resources/properties/TestSuite.xml.executor": "Run",
     "TestNG.TC_001_CheckFavorite.executor": "Run",
     "TestNG.Test1.login_email_and_password.executor": "Run",
     "TestNG.Unnamed.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "MihaiValentinGeorgescu",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/GG/Desktop/teme qa/INTERNSHIP/RepoAutomatedTests/TapTasty",
+    "last_opened_file_path": "C:/Users/GG/Desktop/teme qa/INTERNSHIP/RepoAutomatedTests/TapTasty/src/test/resources/properties/TestSuite.xml",
     "onboarding.tips.debug.path": "C:/Users/mircea.dragomir/Documents/Administrativ/Shared/Skillbrain/Internship/TapTasty/Taptasty/src/main/java/org/example/Main.java"
   }
 }]]></component>
@@ -63,7 +60,27 @@
       <recent name="C:\Users\GG\Desktop\teme qa\INTERNSHIP\RepoAutomatedTests\TapTasty" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Unnamed">
+  <component name="RunManager" selected="TestNG.C:/Users/GG/Desktop/teme qa/INTERNSHIP/RepoAutomatedTests/TapTasty/src/test/resources/properties/TestSuite.xml">
+    <configuration name="C:/Users/GG/Desktop/teme qa/INTERNSHIP/RepoAutomatedTests/TapTasty/src/test/resources/properties/TestSuite.xml" type="TestNG" nameIsGenerated="true">
+      <module name="taptasty" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/properties/TestSuite.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test1.login_email_and_password" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="taptasty" />
       <extension name="coverage">
@@ -82,9 +99,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unnamed" type="TestNG" nameIsGenerated="true">
-      <module name="taptasty" />
+    <configuration default="true" type="TestNG">
       <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/properties/TestSuite.xml" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="" />
@@ -93,6 +110,7 @@
       <option name="TEST_OBJECT" value="SUITE" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
       <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
@@ -101,7 +119,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.Unnamed" />
+      <item itemvalue="TestNG.C:/Users/GG/Desktop/teme qa/INTERNSHIP/RepoAutomatedTests/TapTasty/src/test/resources/properties/TestSuite.xml" />
       <item itemvalue="TestNG.Test1.login_email_and_password" />
     </list>
     <recent_temporary>

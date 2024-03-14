@@ -13,6 +13,7 @@ public class TestLogin extends DriverFactory {
     @Test(description = "in aceasta metoda se verifica scenariul de login cu email si parola")
     @Parameters({"username","password"})
     public void login_email_and_password(String username, String password) throws InterruptedException {
+        Thread.sleep(2000);
         login().click_log_in_button();
         Thread.sleep(2000);
         login().insert_text_email(username);

@@ -24,7 +24,7 @@ public class LoginPage extends CommonMethods {
     private WebElement email_text_box;
 
     public void insert_text_email(String input){
-        //click(email_text_box);
+        click(email_text_box);
         addText(input, email_text_box);
     }
 
@@ -32,7 +32,7 @@ public class LoginPage extends CommonMethods {
     private WebElement password_text_box;
 
     public void insert_text_password(String input){
-        //click(password_text_box);
+        click(password_text_box);
         addText(input, password_text_box);
     }
 
