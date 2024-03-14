@@ -33,13 +33,13 @@ public class LogInPage extends BasePage {
         menu.click();
     }
 
-    @FindBy(xpath="//li[5]//div[1]//div[1]//div[1]//img[1]")
+    @FindBy(xpath="(//p[contains(text(),'Gustări')])[1]")
     WebElement gustari;
     public void aleggustari() {
         gustari.click();
     }
 
-    @FindBy(xpath="//span[contains(text(),'Cartofi prăjiți cu crustă crocantă - 170 gr')]")
+    @FindBy(xpath="//span[normalize-space()='CARTOFI PRAJITI CLASICI - PORTIE MARE']")
     WebElement cartofiselect;
     public void cartofi() {
         cartofiselect.click();

@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c39a5787-d4fb-4065-8c64-017357ed24a5" name="Changes" comment="First commit" />
+    <list default="true" id="c39a5787-d4fb-4065-8c64-017357ed24a5" name="Changes" comment="First commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/LogInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testBase/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testBase/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/TC_001_CheckFavorite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/TC_001_CheckFavorite.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,14 +35,23 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Maven.taptasty [clean].executor": "Run",
+    "Maven.taptasty [install].executor": "Run",
+    "Maven.taptasty [test].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "git-widget-placeholder": "master",
+    "TestNG.TC_001_CheckFavorite.executor": "Run",
+    "git-widget-placeholder": "CristianLuca",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/mircea.dragomir/Documents/Administrativ/Shared/Skillbrain/Internship/TapTasty/Taptasty/src/main/java/org/example/Main.java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mircea.dragomir\Documents\Administrativ\Shared\Skillbrain\Internship\TapTasty\TapTastygit1\src\main\resources" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="TC_001_CheckFavorite" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="taptasty" />

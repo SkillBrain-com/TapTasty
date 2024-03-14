@@ -1,10 +1,11 @@
 package testCases;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObjects.HomePage;
 import pageObjects.LogInPage;
 import testBase.BaseClass;
+
+import java.util.concurrent.TimeUnit;
 
 import static org.testng.Assert.fail;
 
@@ -35,14 +36,12 @@ public class TC_001_CheckFavorite extends BaseClass{
 			regpage.password("testare");
 
 			regpage.clickLogin();
-			//Thread.sleep(2000);
-
 			regpage.clickmenu();
-			//Thread.sleep(6000);
+			logger.info("Click menu");
 			regpage.aleggustari();
-			//Thread.sleep(6000);
+			logger.info("Click gustari");
 			regpage.cartofi();
-			//Thread.sleep(6000);
+			logger.info("Click cartofi");
 
 		}
 		catch(Exception e)
