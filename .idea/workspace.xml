@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c39a5787-d4fb-4065-8c64-017357ed24a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/taptastycont/MyCards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/taptastytestcont/MyCardsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taptastycont/FavoriteOrders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/taptastytestcont/FavoriteOrdersTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/automation-2024-03-14.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation-2024-03-14.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/taptastycont/OrderHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taptastycont/OrderHistory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +48,7 @@
     "TestNG.AddProductToFavoriteTest.addProductToFavorite.executor": "Run",
     "TestNG.ChangePersonalInformationTest.changePersonalInformation.executor": "Run",
     "TestNG.DeleteProductFromFavoriteTest.deleteProductFromFavorite.executor": "Run",
+    "TestNG.FavoriteOrdersTest.myCards.executor": "Run",
     "TestNG.FirstProductToCartTest.firstProductTest.executor": "Run",
     "TestNG.LoginPageTest.loginPage.executor": "Run",
     "TestNG.MyCardsTest.myCards.executor": "Run",
@@ -70,7 +61,7 @@
     "onboarding.tips.debug.path": "C:/Users/mircea.dragomir/Documents/Administrativ/Shared/Skillbrain/Internship/TapTasty/Taptasty/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.MyCardsTest.myCards">
+  <component name="RunManager" selected="TestNG.FavoriteOrdersTest.myCards">
     <configuration name="AddAddressManualTest.addressManual" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="taptasty" />
       <shortenClasspath name="NONE" />
@@ -129,7 +120,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteProductFromFavoriteTest.deleteProductFromFavorite" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FavoriteOrdersTest.myCards" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="taptasty" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -140,9 +131,9 @@
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="taptastytests" />
-      <option name="MAIN_CLASS_NAME" value="taptastytests.DeleteProductFromFavoriteTest" />
-      <option name="METHOD_NAME" value="deleteProductFromFavorite" />
+      <option name="PACKAGE_NAME" value="taptastytestcont" />
+      <option name="MAIN_CLASS_NAME" value="taptastytestcont.FavoriteOrdersTest" />
+      <option name="METHOD_NAME" value="myCards" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
@@ -239,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FavoriteOrdersTest.myCards" />
         <item itemvalue="TestNG.MyCardsTest.myCards" />
         <item itemvalue="TestNG.OrderHistoryTest.orderHistory" />
         <item itemvalue="TestNG.AddAddressManualTest.addressManual" />
         <item itemvalue="TestNG.ChangePersonalInformationTest.changePersonalInformation" />
-        <item itemvalue="TestNG.DeleteProductFromFavoriteTest.deleteProductFromFavorite" />
       </list>
     </recent_temporary>
   </component>
