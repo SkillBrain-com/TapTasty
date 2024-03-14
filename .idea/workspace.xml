@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c39a5787-d4fb-4065-8c64-017357ed24a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/taptastycont/OrderHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/taptastytestcont/OrderHistoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taptastycont/MyCards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/taptastytestcont/MyCardsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/automation-2024-03-14.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation-2024-03-14.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/taptastycont/OrderHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taptastycont/OrderHistory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" afterDir="false" />
@@ -58,6 +60,7 @@
     "TestNG.DeleteProductFromFavoriteTest.deleteProductFromFavorite.executor": "Run",
     "TestNG.FirstProductToCartTest.firstProductTest.executor": "Run",
     "TestNG.LoginPageTest.loginPage.executor": "Run",
+    "TestNG.MyCardsTest.myCards.executor": "Run",
     "TestNG.OrderHistoryTest.orderHistory.executor": "Run",
     "TestNG.RegisterTest.executor": "Run",
     "TestNG.RegisterTest.registerTest.executor": "Run",
@@ -67,7 +70,7 @@
     "onboarding.tips.debug.path": "C:/Users/mircea.dragomir/Documents/Administrativ/Shared/Skillbrain/Internship/TapTasty/Taptasty/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.OrderHistoryTest.orderHistory">
+  <component name="RunManager" selected="TestNG.MyCardsTest.myCards">
     <configuration name="AddAddressManualTest.addressManual" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="taptasty" />
       <shortenClasspath name="NONE" />
@@ -82,35 +85,6 @@
       <option name="PACKAGE_NAME" value="taptastytestcont" />
       <option name="MAIN_CLASS_NAME" value="taptastytestcont.AddAddressManualTest" />
       <option name="METHOD_NAME" value="addressManual" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="true" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AddProductToFavoriteTest.addProductToFavorite" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="taptasty" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="taptastytestcont.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="taptastytests" />
-      <option name="MAIN_CLASS_NAME" value="taptastytests.AddProductToFavoriteTest" />
-      <option name="METHOD_NAME" value="addProductToFavorite" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
@@ -184,6 +158,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyCardsTest.myCards" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="taptasty" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="taptastytestcont.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="taptastytestcont" />
+      <option name="MAIN_CLASS_NAME" value="taptastytestcont.MyCardsTest" />
+      <option name="METHOD_NAME" value="myCards" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderHistoryTest.orderHistory" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="taptasty" />
       <shortenClasspath name="NONE" />
@@ -236,11 +239,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MyCardsTest.myCards" />
         <item itemvalue="TestNG.OrderHistoryTest.orderHistory" />
         <item itemvalue="TestNG.AddAddressManualTest.addressManual" />
         <item itemvalue="TestNG.ChangePersonalInformationTest.changePersonalInformation" />
         <item itemvalue="TestNG.DeleteProductFromFavoriteTest.deleteProductFromFavorite" />
-        <item itemvalue="TestNG.AddProductToFavoriteTest.addProductToFavorite" />
       </list>
     </recent_temporary>
   </component>

@@ -1,21 +1,40 @@
-19:30:30.344 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-19:30:30.346 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-19:30:30.346 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.afterMethode()[pri:0, instance:null] 145901492
-19:30:30.347 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-19:30:30.347 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-19:30:30.347 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-19:30:30.347 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-19:30:30.351 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE OrderHistoryTest.orderHistory()[pri:0, instance:taptastytestcont.OrderHistoryTest@59b38691] 1416791926
-19:30:30.352 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-19:30:30.353 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-19:30:30.353 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-19:30:30.353 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-19:30:30.358 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+19:47:22.117 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+19:47:22.120 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+19:47:22.121 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.afterMethode()[pri:0, instance:null] 145901492
+19:47:22.121 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+19:47:22.121 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+19:47:22.121 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+19:47:22.121 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+19:47:22.124 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE MyCardsTest.myCards()[pri:0, instance:taptastytestcont.MyCardsTest@46944ca9] 1407769722
+19:47:22.126 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+19:47:22.126 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+19:47:22.126 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+19:47:22.126 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+19:47:22.132 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
 
-19:30:31.484 [main] INFO  utils.BasePage - **** starting TC_OrderHistory  *****
-19:30:31.484 [main] DEBUG utils.BasePage - application logs started......
-19:30:32.541 [main] INFO  utils.BasePage - Log in
-19:30:33.611 [main] INFO  utils.BasePage - Check order history
-19:30:37.436 [main] DEBUG utils.BasePage - application logs end.......
-19:30:37.436 [main] INFO  utils.BasePage - **** finished TC_OrderHistory *****
+19:49:13.110 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml"
+19:49:13.245 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.beforeMethode()[pri:0, instance:null] 1881771703
+19:49:13.245 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+19:49:13.247 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+19:49:13.247 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+19:49:13.247 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+19:49:13.248 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.afterMethode()[pri:0, instance:null] 145901492
+19:49:13.248 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+19:49:13.248 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+19:49:13.248 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+19:49:13.248 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+19:49:13.251 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE MyCardsTest.myCards()[pri:0, instance:taptastytestcont.MyCardsTest@46944ca9] 1407769722
+19:49:13.251 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+19:49:13.252 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+19:49:13.252 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+19:49:13.252 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+19:49:13.258 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+19:49:14.398 [main] INFO  utils.BasePage - **** starting TC_MyCards  *****
+19:49:14.399 [main] DEBUG utils.BasePage - application logs started......
+19:49:15.422 [main] INFO  utils.BasePage - Log in
+19:49:16.528 [main] INFO  utils.BasePage - Check my cards
+19:49:20.542 [main] DEBUG utils.BasePage - application logs end.......
+19:49:20.542 [main] INFO  utils.BasePage - **** finished TC_MyCars *****
