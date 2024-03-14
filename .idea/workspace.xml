@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c39a5787-d4fb-4065-8c64-017357ed24a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/taptastycont/AddAddressManual.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taptastycont/ChangePersonalInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/taptastytestcont/AddAddressManualTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/taptastytestcont/ChangePersonalInformationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taptastycont/OrderHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/taptastytestcont/OrderHistoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/DataGeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/DataGeneration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" afterDir="false" />
@@ -50,26 +47,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven.taptasty [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TestNG.AddAddressManualTest.addressManual.executor&quot;: &quot;Debug&quot;,
-    &quot;TestNG.AddProductToFavoriteTest.addProductToFavorite.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ChangePersonalInformationTest.changePersonalInformation.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DeleteProductFromFavoriteTest.deleteProductFromFavorite.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.FirstProductToCartTest.firstProductTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginPageTest.loginPage.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.RegisterTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.RegisterTest.registerTest.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;MorzsaAlex&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/TapTasty/TapTasty&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/mircea.dragomir/Documents/Administrativ/Shared/Skillbrain/Internship/TapTasty/Taptasty/src/main/java/org/example/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.taptasty [clean,install].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.AddAddressManualTest.addressManual.executor": "Run",
+    "TestNG.AddProductToFavoriteTest.addProductToFavorite.executor": "Run",
+    "TestNG.ChangePersonalInformationTest.changePersonalInformation.executor": "Run",
+    "TestNG.DeleteProductFromFavoriteTest.deleteProductFromFavorite.executor": "Run",
+    "TestNG.FirstProductToCartTest.firstProductTest.executor": "Run",
+    "TestNG.LoginPageTest.loginPage.executor": "Run",
+    "TestNG.OrderHistoryTest.orderHistory.executor": "Run",
+    "TestNG.RegisterTest.executor": "Run",
+    "TestNG.RegisterTest.registerTest.executor": "Run",
+    "git-widget-placeholder": "MorzsaAlex",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/TapTasty/TapTasty",
+    "onboarding.tips.debug.path": "C:/Users/mircea.dragomir/Documents/Administrativ/Shared/Skillbrain/Internship/TapTasty/Taptasty/src/main/java/org/example/Main.java"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.AddAddressManualTest.addressManual">
+}]]></component>
+  <component name="RunManager" selected="TestNG.OrderHistoryTest.orderHistory">
     <configuration name="AddAddressManualTest.addressManual" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="taptasty" />
       <shortenClasspath name="NONE" />
@@ -186,7 +184,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginPageTest.loginPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderHistoryTest.orderHistory" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="taptasty" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -197,9 +195,9 @@
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="taptastytests" />
-      <option name="MAIN_CLASS_NAME" value="taptastytests.LoginPageTest" />
-      <option name="METHOD_NAME" value="loginPage" />
+      <option name="PACKAGE_NAME" value="taptastytestcont" />
+      <option name="MAIN_CLASS_NAME" value="taptastytestcont.OrderHistoryTest" />
+      <option name="METHOD_NAME" value="orderHistory" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
@@ -238,11 +236,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.OrderHistoryTest.orderHistory" />
         <item itemvalue="TestNG.AddAddressManualTest.addressManual" />
         <item itemvalue="TestNG.ChangePersonalInformationTest.changePersonalInformation" />
         <item itemvalue="TestNG.DeleteProductFromFavoriteTest.deleteProductFromFavorite" />
         <item itemvalue="TestNG.AddProductToFavoriteTest.addProductToFavorite" />
-        <item itemvalue="TestNG.LoginPageTest.loginPage" />
       </list>
     </recent_temporary>
   </component>
