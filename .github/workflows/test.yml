@@ -1,0 +1,24 @@
+name: TestNG Tests
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up JDK
+      uses: actions/setup-java@v2
+      with:
+        java-version: '11'
+
+    - name: Run TestNG tests
+      run: |
+        cd ~/Desktop/teme\ qa/INTERNSHIP/RepoAutomatedTests/TapTasty/src/test/resources/properties/
+        java -cp "/path/to/your/testng.jar:/path/to/your/test-classes" org.testng.TestNG TestSuite.xml
