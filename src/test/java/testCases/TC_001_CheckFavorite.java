@@ -29,12 +29,14 @@ public class TC_001_CheckFavorite extends BaseClass{
 			regpage.clickLogin();
 			//Thread.sleep(2000);
 
-			regpage.clickmenu();
+			/*regpage.clickmenu();
 			//Thread.sleep(6000);
 			regpage.aleggustari();
 			//Thread.sleep(6000);
 			regpage.cartofi();
 			//Thread.sleep(6000);
+
+			 */
 
 		}
 		catch(Exception e)

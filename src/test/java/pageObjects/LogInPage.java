@@ -27,6 +27,7 @@ public class LogInPage extends BasePage {
     public void password(String pass) {
         txtPassword.sendKeys(pass);
     }
+    /*
     @FindBy(xpath="//div[@class='right']//div//a[@class='link'][normalize-space()='Meniu']")
     WebElement menu;
     public void clickmenu() {
@@ -43,5 +44,25 @@ public class LogInPage extends BasePage {
     WebElement cartofiselect;
     public void cartofi() {
         cartofiselect.click();
+    }
+
+     */
+    @FindBy(xpath = "//div[@class='right']//a[@class='link'][normalize-space()='Cont']//*[name()='svg']//*[name()='g' and @id='user-_1_']//*[name()='path' and @id='Path_35617']")
+    WebElement contSelect;
+    public void contInformation(){
+        contSelect.click();
+    }
+
+    @FindBy(xpath = "//a[@href='/personal-information/']//div[@class='item-content']//div[@class='item-inner']")
+    WebElement personalInformationSelect;
+    public void personalinformation (){ personalInformationSelect.click();
+
+    }
+
+    @FindBy(xpath = "//input[@class='input-with-value input-focused']")
+    WebElement numeSelect;
+    public void modificareNume (String nume){
+        numeSelect.click();
+        numeSelect.sendKeys(nume);
     }
 }
