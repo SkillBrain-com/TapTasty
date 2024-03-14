@@ -1,6 +1,7 @@
 package testBase;
 
 import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -14,6 +15,7 @@ public class BaseClass {
 	public WebDriver driver;
 	public Logger logger;
 
+	@SuppressWarnings("deprecation")
 	@BeforeClass
 	public void setup()
 	{
@@ -21,15 +23,15 @@ public class BaseClass {
 
 		driver=new ChromeDriver();
 		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(100, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
-
 		driver.get("https://ristorantelavitaebella.taptasty.com/");
-        try {
-            Thread.sleep(4000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+		try {
+			Thread.sleep(4000);
+		} catch (InterruptedException e) {
+			throw new RuntimeException(e);
+		}
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 
 	}
@@ -37,7 +39,7 @@ public class BaseClass {
 	@AfterClass
 	public void tearDown()
 	{
-		driver.close();
+		driver.quit();
 	}
 
 }
