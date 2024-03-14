@@ -1,0 +1,26 @@
+20:14:23.926 [main] INFO  utils.BasePage - **** finished TC_FavoriteOrders *****
+20:14:53.064 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml"
+20:14:53.195 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.beforeMethode()[pri:0, instance:null] 1881771703
+20:14:53.195 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+20:14:53.196 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+20:14:53.196 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+20:14:53.196 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+20:14:53.198 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.afterMethode()[pri:0, instance:null] 145901492
+20:14:53.199 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+20:14:53.199 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+20:14:53.199 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+20:14:53.199 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+20:14:53.203 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE FavoriteOrdersTest.myCards()[pri:0, instance:taptastytestcont.FavoriteOrdersTest@2445445a] 1282856441
+20:14:53.203 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+20:14:53.203 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+20:14:53.203 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+20:14:53.203 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+20:14:53.209 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+20:14:54.396 [main] INFO  utils.BasePage - **** starting TC_FavoriteOrders  *****
+20:14:54.396 [main] DEBUG utils.BasePage - application logs started......
+20:14:55.485 [main] INFO  utils.BasePage - Log in
+20:14:56.527 [main] INFO  utils.BasePage - Check my favorite orders
+20:15:00.226 [main] DEBUG utils.BasePage - application logs end.......
+20:15:00.226 [main] INFO  utils.BasePage - **** finished TC_FavoriteOrders *****
