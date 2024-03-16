@@ -44,4 +44,37 @@ public class LogInPage extends BasePage {
     public void cartofi() {
         cartofiselect.click();
     }
+    @FindBy(xpath = "//div[@Class='right']//a[@Class='link'][normalize-space()='Cont']")
+    WebElement contSelect;
+
+    public void contInformation() {
+        contSelect.click();
+    }
+
+    @FindBy(xpath = "//div[contains(text(),'Informații personale')]")
+    WebElement personalInformationSelect;
+
+    public void personalinformation() {
+        personalInformationSelect.click();
+
+    }
+
+    @FindBy(xpath = "//*[@id=\"validateInfo\"]/ul/li[1]/div/div/li/div/div/div[2]/input")
+    WebElement numeSelect;
+
+    public void modificareNume(String nume) {
+        numeSelect.click();
+        numeSelect.sendKeys(nume);
+    }
+    @FindBy(xpath = "//a[contains(text(),'Salvează modificările')]")
+    WebElement salveazaNume;
+
+    public void salvare() {
+        salveazaNume.click();
+    }
+    @FindBy(xpath = "//*[@id=\"main-view\"]/div/div[3]/div[1]/div[2]/div[1]/ul/li[2]/a/div/div[2]")
+    WebElement myAddress;
+    public void setMyAddress(){
+        myAddress.click();
+    }
 }
