@@ -34,6 +34,7 @@ public class ChangePersonalInformation {
     public WebDriverWait wait;
 
     public ChangePersonalInformation(WebDriver driver) {
+
         this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(30));
     }
