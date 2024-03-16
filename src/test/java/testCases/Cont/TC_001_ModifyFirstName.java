@@ -5,10 +5,10 @@ import pageObjects.HomePage;
 import pageObjects.LogInPage;
 import testBase.BaseClass;
 
-public class TC_001_ModifyPersonalInformation extends BaseClass {
+public class TC_001_ModifyFirstName extends BaseClass {
     @Test
-    public void first_order() {
-        logger.info("**** starting TC_001_ModifyPersonalInformation *****");
+    public void modifyPersonalInformation() {
+        logger.info("**** starting TC_001_ModifyFirstName *****");
         logger.debug("application logs started......");
         try {
             HomePage hp = new HomePage(driver);
@@ -22,13 +22,17 @@ public class TC_001_ModifyPersonalInformation extends BaseClass {
             regpage.password("Chavi27an");
 
             regpage.clickLogin();
-            //Thread.sleep(2000);
-
-            regpage.contInformation();
             Thread.sleep(2000);
 
+            regpage.contInformation();
+            //Thread.sleep(2000);
+
             regpage.personalinformation();
+            regpage.stergenume();
             regpage.modificareNume("Oana");
+            logger.info("Oana");
+            regpage.setSaveModificationsPersonalInformation();
+            logger.info("Oana");
 
 
 
@@ -41,7 +45,7 @@ public class TC_001_ModifyPersonalInformation extends BaseClass {
         }
 
         logger.debug("application logs end.......");
-        logger.info("**** finished TC_001_ModifyPersonalInformation *****");
+        logger.info("**** finished TC_001_ModifyFirstName *****");
 
     }
 }
