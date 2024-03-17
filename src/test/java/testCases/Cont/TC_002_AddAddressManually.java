@@ -2,12 +2,12 @@ package testCases.Cont;
 
 import org.testng.annotations.Test;
 import pageObjects.HomePage;
-import pageObjects.LogInPage;
+import  pageObjects.LogInPage;
 import testBase.BaseClass;
 
 public class TC_002_AddAddressManually extends BaseClass{
     @Test
-    public void addAnAddressManually(){
+    public void addAddressManually(){
         logger.info(" starting TC_002_AddAddressManually *");
         logger.debug("application logs started......");
         try {
@@ -27,6 +27,14 @@ public class TC_002_AddAddressManually extends BaseClass{
             regpage.contInformation();
             //Thread.sleep(2000);
             regpage.setMyAddress();
+            regpage.setAddAddressManually();
+            regpage.setAddAddress();
+            regpage.setStreetName();
+            regpage.setNumberStreet();
+            regpage.setFullAddress();
+            regpage.setTown();
+            regpage.setAddTown();
+            regpage.setCompleted();
 
 
 
@@ -46,6 +54,8 @@ public class TC_002_AddAddressManually extends BaseClass{
 
 
     }
+
+
 
 }
 
