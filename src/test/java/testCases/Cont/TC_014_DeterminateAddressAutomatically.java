@@ -7,7 +7,7 @@ import testBase.BaseClass;
 
 public class TC_014_DeterminateAddressAutomatically extends BaseClass {
     @Test
-    public void addAnAddressManually(){
+    public void determinateAddressAutomatically(){
         logger.info("**** starting TC_014_DeterminateAddressAutomatically *****");
         logger.debug("application logs started......");
         try {

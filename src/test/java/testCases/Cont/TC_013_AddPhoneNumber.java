@@ -7,7 +7,7 @@ import testBase.BaseClass;
 
 public class TC_013_AddPhoneNumber extends BaseClass {
     @Test
-    public void modifyPersonalInformation() {
+    public void addPhoneNumber() {
         logger.info("**** starting TC_013_AddPhoneNumber *****");
         logger.debug("application logs started......");
         try {

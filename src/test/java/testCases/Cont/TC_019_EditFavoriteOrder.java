@@ -5,10 +5,10 @@ import pageObjects.HomePage;
 import pageObjects.LogInPage;
 import testBase.BaseClass;
 
-public class TC_006_ModifyLanguage extends BaseClass {
+public class TC_019_EditFavoriteOrder extends BaseClass {
     @Test
-    public void modifyLanguage(){
-        logger.info("**** starting TC_006_ModifyLanguage *****");
+    public void editFavoriteOrder(){
+        logger.info("**** starting TC_019_EditFavoriteOrder *****");
         logger.debug("application logs started......");
         try {
             HomePage hp = new HomePage(driver);
@@ -25,9 +25,11 @@ public class TC_006_ModifyLanguage extends BaseClass {
             Thread.sleep(2000);
 
             regpage.contInformation();
-            regpage.setChangeLanguageSelect();
-            regpage.setSelectEnglish();
-            regpage.setSaveChanges();
+            regpage.setClickFavoriteOrder();
+            regpage.setExpandFirstOrder();
+            regpage.setAddInCart();
+            regpage.setPopUpMessageFavOrder();
+            regpage.setSecondPopUpMessage();
 
         }
         catch(Exception e)
@@ -38,7 +40,7 @@ public class TC_006_ModifyLanguage extends BaseClass {
         }
 
         logger.debug("application logs end.......");
-        logger.info("**** finished TC_006_ModifyLanguage *****");
+        logger.info("**** finished TC_019_EditFavoriteOrder *****");
 
     }
 }

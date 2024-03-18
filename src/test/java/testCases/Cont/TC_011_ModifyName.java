@@ -7,7 +7,7 @@ import testBase.BaseClass;
 
 public class TC_011_ModifyName extends BaseClass {
     @Test
-    public void modifyPersonalInformation() {
+    public void modifyName() {
         logger.info("**** starting TC_011_ModifyName *****");
         logger.debug("application logs started......");
         try {

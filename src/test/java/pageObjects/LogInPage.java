@@ -267,7 +267,7 @@ public class LogInPage extends BasePage {
     public void setModifyPhoneNumber(){
         modifyPhoneNumber.sendKeys("2222222222");
     }
-    @FindBy(xpath = "")
+    @FindBy(xpath = "//*[@id=\"double_toolbar\"]/div/a[1]")
     WebElement locationAutomatically;
     public void setLocationAutomatically(){
         locationAutomatically.click();
@@ -286,5 +286,90 @@ public class LogInPage extends BasePage {
     WebElement saveModificationsAddressAuto;
     public void setSaveModificationsAddressAuto(){
         saveModificationsAddressAuto.click();
+    }
+    @FindBy(xpath = "//*[@id=\"validateInfo\"]/div/div[2]/label")
+    WebElement chooseGender;
+    public void setChooseGender(){
+        chooseGender.click();
+    }
+    @FindBy(xpath = "//*[@id=\"MazPhoneNumberInput-550_country_selector\"]")
+    WebElement chooseCountryCode;
+    public void setChooseCountryCode(){
+        chooseCountryCode.click();
+    }
+    @FindBy(xpath = "//*[@id=\"MazPhoneNumberInput\"]/div[1]/div/div[3]/div/div[1]/div[1]/button")
+    WebElement  countryAfghanistan;
+    public void setCountryAfghanistan(){
+        countryAfghanistan.click();
+    }
+    @FindBy(xpath = "//*[@id=\"main-view\"]/div/div[2]/div[1]/div[1]/ul/li[2]/label/div/a/span")
+    WebElement editAddress;
+    public void setEditAddress(){
+        editAddress.click();
+    }
+    @FindBy(xpath = "//*[@id=\"validateEditAddress\"]/ul/li[3]/div/div/li/div/div/div[2]/span")
+    WebElement deleteNoStreet;
+    public void setDeleteNoStreet(){
+        deleteNoStreet.click();
+    }
+    @FindBy(xpath = "//*[@id=\"validateEditAddress\"]/ul/li[3]/div/div/li/div/div/div[2]/input")
+    WebElement newNoStreet;
+    public void setNewNoStreet(){
+        newNoStreet.sendKeys("245");
+    }
+    @FindBy(xpath = "//*[@id=\"double_toolbar\"]/div/a[2]")
+    WebElement finalStepEditAddress;
+    public void setFinalStepEditAddress(){
+        finalStepEditAddress.click();
+    }
+    @FindBy(xpath = "//*[@id=\"main-view\"]/div/div[2]/div[1]/ul/li[1]/div/div")
+    WebElement selectFirstOrder;
+    public void setSelectFirstOrder(){
+        selectFirstOrder.click();
+    }
+    @FindBy(xpath = "//*[@id=\"framework7-root\"]/div[11]/div/div[2]/div/a")
+    WebElement selectAddFavorite;
+    public void setSelectAddFavorite(){
+        selectAddFavorite.click();
+    }
+    @FindBy(xpath = "//*[@id=\"framework7-root\"]/div[12]/div[2]/span")
+    WebElement popUpMessage;
+    public void setPopUpMessage(){
+        popUpMessage.click();
+    }
+    @FindBy(xpath = "//*[@id=\"main-view\"]/div/div[2]/div/ul/li[1]/a/div/div")
+    WebElement expandFirstOrder;
+    public void setExpandFirstOrder(){
+        expandFirstOrder.click();
+    }
+    @FindBy(xpath = "//*[@id=\"main-view\"]/div/div[2]/div/ul/li[1]/div/div/div[2]/div[2]/a/p")
+    WebElement addInCart;
+    public void setAddInCart(){
+        addInCart.click();
+    }
+    @FindBy(xpath = "//*[@id=\"framework7-root\"]/div[11]/div[2]/span[2]")
+    WebElement popUpMessageFavOrder;
+    public void setPopUpMessageFavOrder(){
+        popUpMessageFavOrder.click();
+    }
+    @FindBy(xpath = "//*[@id=\"framework7-root\"]/div[11]/div[2]/span")
+    WebElement secondPopUpMessage;
+    public void setSecondPopUpMessage(){
+        secondPopUpMessage.click();
+    }
+    @FindBy(xpath = "//*[@id=\"main-view\"]/div/div[2]/div/ul/li[1]/div/div/div[2]/div[1]/a")
+    WebElement deleteFavoriteOrder;
+    public void setDeleteFavoriteOrder(){
+        deleteFavoriteOrder.click();
+    }
+    @FindBy(xpath = "//*[@id=\"framework7-root\"]/div[11]/div[2]/span[2]")
+    WebElement popUpDeleteFavOrd;
+    public void setPopUpDeleteFavOrd(){
+        popUpDeleteFavOrd.click();
+    }
+    @FindBy(xpath = "//*[@id=\"main-view\"]/div/div[2]/div/ul/li[1]/a/div/div/div[1]")
+    WebElement firstOrder;
+    public void setFirstOrder(){
+        firstOrder.click();
     }
 }

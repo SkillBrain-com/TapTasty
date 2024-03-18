@@ -7,7 +7,7 @@ import testBase.BaseClass;
 
 public class TC_010_VerifyMyCards extends BaseClass {
     @Test
-    public void verifyPromotions(){
+    public void verifyMyCards(){
         logger.info("**** starting TC_010_VerifyMyCards *****");
         logger.debug("application logs started......");
         try {

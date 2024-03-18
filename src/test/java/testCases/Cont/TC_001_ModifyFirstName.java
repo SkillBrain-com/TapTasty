@@ -7,7 +7,7 @@ import testBase.BaseClass;
 
 public class TC_001_ModifyFirstName extends BaseClass {
     @Test
-    public void modifyPersonalInformation() {
+    public void modifyFirstName() {
         logger.info("**** starting TC_001_ModifyFirstName *****");
         logger.debug("application logs started......");
         try {
@@ -19,7 +19,7 @@ public class TC_001_ModifyFirstName extends BaseClass {
             LogInPage regpage = new LogInPage(driver);
 
             regpage.setEmail("andreea.oananastac8@gmail.com");
-            regpage.password("Chavi27an");
+            regpage.password("Chavi2727an");
 
             regpage.clickLogin();
             Thread.sleep(2000);

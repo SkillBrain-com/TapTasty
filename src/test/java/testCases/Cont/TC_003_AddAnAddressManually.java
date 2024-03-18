@@ -19,7 +19,7 @@ public class TC_003_AddAnAddressManually extends BaseClass {
             LogInPage regpage = new LogInPage(driver);
 
             regpage.setEmail("andreea.oananastac8@gmail.com");
-            regpage.password("Chavi27an");
+            regpage.password("Chavi2727an");
 
             regpage.clickLogin();
             Thread.sleep(2000);

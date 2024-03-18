@@ -7,7 +7,7 @@ import testBase.BaseClass;
 
 public class TC_009_EmailNotifications extends BaseClass {
     @Test
-    public void verifyPromotions(){
+    public void emailNotifications(){
         logger.info("**** starting TC_009_EmailNotifications *****");
         logger.debug("application logs started......");
         try {

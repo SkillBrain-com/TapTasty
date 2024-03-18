@@ -7,7 +7,7 @@ import testBase.BaseClass;
 
 public class TC_012_AddDateOfBirth extends BaseClass {
     @Test
-    public void modifyPersonalInformation() {
+    public void addDateOfBirth() {
         logger.info("**** starting TC_012_AddDateOfBirth *****");
         logger.debug("application logs started......");
         try {
