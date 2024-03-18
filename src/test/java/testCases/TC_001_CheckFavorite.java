@@ -1,5 +1,6 @@
 package testCases;
 
+import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObjects.HomePage;
@@ -28,7 +29,6 @@ public class TC_001_CheckFavorite extends BaseClass{
 
 			regpage.clickLogin();
 			Thread.sleep(2000);
-
 			regpage.clickmenu();
 			Thread.sleep(6000);
 			regpage.aleggustari();
