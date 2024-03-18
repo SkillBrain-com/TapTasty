@@ -5,22 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c39a5787-d4fb-4065-8c64-017357ed24a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/taptastycont/ChangeLanguage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taptastycont/ChangePassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taptastycont/Disconnect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taptastycont/NotificationByEmailOnOff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/taptastytestcont/ChangeLanguageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/taptastytestcont/ChangePasswordTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/taptastytestcont/DisconnectTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/taptastytestcont/NotificationByEmailOnOffTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taptastymenu/AddAProductToCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taptastymenu/CompleteTheOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/taptastytestmenu/AddAProductToCartTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/taptastytestmenu/CompleteTheOrderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/automation-2024-03-11.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation-2024-03-11.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/taptastycont/ChangePersonalInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taptastycont/ChangePersonalInformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/taptasty/AddProductToFavorit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taptasty/AddProductToFavorit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/taptastytests/AddProductToFavoriteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/taptastytestmenu/AddProductToFavoriteTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-taptastytests.AddProductToFavoriteTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-taptastytests.AddProductToFavoriteTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
@@ -59,11 +58,14 @@
     "Maven.taptasty [clean,install].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.AddAProductToCartTest.addToCart.executor": "Run",
     "TestNG.AddAddressManualTest.addressManual.executor": "Run",
+    "TestNG.AddProductToFavoriteTest.addProductToFavorite (1).executor": "Run",
     "TestNG.AddProductToFavoriteTest.addProductToFavorite.executor": "Run",
     "TestNG.ChangeLanguageTest.changeLanguage.executor": "Debug",
     "TestNG.ChangePasswordTest.changePassword.executor": "Run",
     "TestNG.ChangePersonalInformationTest.changePersonalInformation.executor": "Run",
+    "TestNG.CompleteTheOrderTest.completeTheOrder.executor": "Run",
     "TestNG.DeleteProductFromFavoriteTest.deleteProductFromFavorite.executor": "Run",
     "TestNG.DisconnectTest.disconnect.executor": "Debug",
     "TestNG.FavoriteOrdersTest.myCards.executor": "Run",
@@ -80,21 +82,21 @@
     "onboarding.tips.debug.path": "C:/Users/mircea.dragomir/Documents/Administrativ/Shared/Skillbrain/Internship/TapTasty/Taptasty/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.DisconnectTest.disconnect">
-    <configuration name="ChangeLanguageTest.changeLanguage" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CompleteTheOrderTest.completeTheOrder">
+    <configuration name="AddAProductToCartTest.addToCart" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="taptasty" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="taptastytestcont.*" />
+          <option name="PATTERN" value="taptastytestmenu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="taptastytestcont" />
-      <option name="MAIN_CLASS_NAME" value="taptastytestcont.ChangeLanguageTest" />
-      <option name="METHOD_NAME" value="changeLanguage" />
+      <option name="PACKAGE_NAME" value="taptastytestmenu" />
+      <option name="MAIN_CLASS_NAME" value="taptastytestmenu.AddAProductToCartTest" />
+      <option name="METHOD_NAME" value="addToCart" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
@@ -110,7 +112,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChangePasswordTest.changePassword" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddAddressManualTest.addressManual" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="taptasty" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -122,8 +124,8 @@
       </extension>
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="taptastytestcont" />
-      <option name="MAIN_CLASS_NAME" value="taptastytestcont.ChangePasswordTest" />
-      <option name="METHOD_NAME" value="changePassword" />
+      <option name="MAIN_CLASS_NAME" value="taptastytestcont.AddAddressManualTest" />
+      <option name="METHOD_NAME" value="addressManual" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
@@ -139,20 +141,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DisconnectTest.disconnect" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddProductToFavoriteTest.addProductToFavorite" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="taptasty" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="taptastytestcont.*" />
+          <option name="PATTERN" value="taptastytestmenu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="taptastytestcont" />
-      <option name="MAIN_CLASS_NAME" value="taptastytestcont.DisconnectTest" />
-      <option name="METHOD_NAME" value="disconnect" />
+      <option name="PACKAGE_NAME" value="taptastytestmenu" />
+      <option name="MAIN_CLASS_NAME" value="taptastytestmenu.AddProductToFavoriteTest" />
+      <option name="METHOD_NAME" value="addProductToFavorite" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
@@ -168,20 +170,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FavoriteOrdersTest.myCards" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddProductToFavoriteTest.addProductToFavorite" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="taptasty" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="taptastytestcont.*" />
+          <option name="PATTERN" value="taptastytestmenu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="taptastytestcont" />
-      <option name="MAIN_CLASS_NAME" value="taptastytestcont.FavoriteOrdersTest" />
-      <option name="METHOD_NAME" value="myCards" />
+      <option name="PACKAGE_NAME" value="taptastytests" />
+      <option name="MAIN_CLASS_NAME" value="taptastytestmenu.AddProductToFavoriteTest" />
+      <option name="METHOD_NAME" value="addProductToFavorite" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
@@ -197,20 +199,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NotificationByEmailOnOffTest.notificationByEmail" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CompleteTheOrderTest.completeTheOrder" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="taptasty" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="taptastytestcont.*" />
+          <option name="PATTERN" value="taptastytestmenu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="taptastytestcont" />
-      <option name="MAIN_CLASS_NAME" value="taptastytestcont.NotificationByEmailOnOffTest" />
-      <option name="METHOD_NAME" value="notificationByEmail" />
+      <option name="PACKAGE_NAME" value="taptastytestmenu" />
+      <option name="MAIN_CLASS_NAME" value="taptastytestmenu.CompleteTheOrderTest" />
+      <option name="METHOD_NAME" value="completeTheOrder" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
@@ -249,11 +251,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DisconnectTest.disconnect" />
-        <item itemvalue="TestNG.NotificationByEmailOnOffTest.notificationByEmail" />
-        <item itemvalue="TestNG.ChangeLanguageTest.changeLanguage" />
-        <item itemvalue="TestNG.ChangePasswordTest.changePassword" />
-        <item itemvalue="TestNG.FavoriteOrdersTest.myCards" />
+        <item itemvalue="TestNG.CompleteTheOrderTest.completeTheOrder" />
+        <item itemvalue="TestNG.AddProductToFavoriteTest.addProductToFavorite" />
+        <item itemvalue="TestNG.AddProductToFavoriteTest.addProductToFavorite (1)" />
+        <item itemvalue="TestNG.AddAProductToCartTest.addToCart" />
+        <item itemvalue="TestNG.AddAddressManualTest.addressManual" />
       </list>
     </recent_temporary>
   </component>
@@ -320,26 +322,31 @@
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/taptastycont/Disconnect.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/taptastycont/Disconnect.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/taptastycont/Disconnect.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/taptastycont/NotificationByEmailOnOff.java</url>
           <line>28</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/taptastymenu/CompleteTheOrder.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/taptastymenu/CompleteTheOrder.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/taptastymenu/CompleteTheOrder.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TapTasty$NotificationByEmailOnOffTest_notificationByEmail.ic" NAME="NotificationByEmailOnOffTest.notificationByEmail Coverage Results" MODIFIED="1710610136718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>taptastytestcont.*</FILTER>
+    </SUITE>
   </component>
 </project>

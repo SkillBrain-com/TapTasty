@@ -20,7 +20,7 @@ public class AddProductToFavorit {
 
     By location = By.xpath("(//img[@class = 'banner'])[1]");
     By menu = By.xpath("(//div[@class = 'item-inner']/p)[2]");
-    By product = By.xpath("//span[text()=\"PUI MOZZARELLA CU SOS CLASIC ȘI PARMEZAN\"]");
+    By product = By.xpath("(//div/span[@class= 'title-product'])[1]");
     By favorite = By.cssSelector(".vertical--align--middle");
     By okButton = By.cssSelector("span.dialog-button.dialog-button-bold");
 
@@ -39,7 +39,7 @@ public class AddProductToFavorit {
         Actions actions = new Actions(driver);
         actions.moveToElement(driver.findElement(menu)).perform();
         driver.findElement(menu).click();
-//        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(product));
+
         TimeUnit.SECONDS.sleep(1);
         driver.findElement(product).click();
 

@@ -1,0 +1,57 @@
+16:32:32.936 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+16:32:34.056 [main] INFO  utils.BasePage - **** starting TC_CompleteTheOrder *****
+16:32:34.056 [main] DEBUG utils.BasePage - application logs started......
+16:32:35.125 [main] INFO  utils.BasePage - Log in
+16:32:36.173 [main] INFO  utils.BasePage - Add a product to cart
+16:32:43.701 [main] INFO  utils.BasePage - Complete the order
+16:32:46.565 [main] ERROR utils.BasePage - test failed..
+16:32:46.565 [main] DEBUG utils.BasePage - debug logs....
+16:32:46.805 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE CompleteTheOrderTest.completeTheOrder()[pri:0, instance:taptastytestmenu.CompleteTheOrderTest@324a0017] 1644465517
+16:32:46.805 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+16:32:46.805 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+16:32:46.805 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+16:32:46.805 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+16:36:18.341 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml"
+16:36:18.462 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.beforeMethode()[pri:0, instance:null] 1881771703
+16:36:18.463 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+16:36:18.464 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+16:36:18.464 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+16:36:18.464 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+16:36:18.465 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.afterMethode()[pri:0, instance:null] 145901492
+16:36:18.465 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+16:36:18.465 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+16:36:18.465 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+16:36:18.465 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+16:36:18.468 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE CompleteTheOrderTest.completeTheOrder()[pri:0, instance:taptastytestmenu.CompleteTheOrderTest@126945f9] 1109644111
+16:36:18.469 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+16:36:18.469 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+16:36:18.469 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+16:36:18.469 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+16:36:18.475 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+16:36:19.751 [main] INFO  utils.BasePage - **** starting TC_CompleteTheOrder *****
+16:36:19.751 [main] DEBUG utils.BasePage - application logs started......
+16:36:20.823 [main] INFO  utils.BasePage - Log in
+16:36:21.859 [main] INFO  utils.BasePage - Add a product to cart
+16:36:29.413 [main] INFO  utils.BasePage - Complete the order
+16:37:00.781 [main] ERROR utils.BasePage - test failed..
+16:37:00.781 [main] DEBUG utils.BasePage - debug logs....
+16:37:00.911 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE CompleteTheOrderTest.completeTheOrder()[pri:0, instance:taptastytestmenu.CompleteTheOrderTest@126945f9] 1109644111
+16:37:00.911 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+16:37:00.912 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+16:37:00.912 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+16:37:00.912 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+16:38:04.740 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml"
+16:38:04.883 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.beforeMethode()[pri:0, instance:null] 1881771703
+16:38:04.884 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+16:38:04.885 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+16:38:04.885 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+16:38:04.885 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+16:38:04.886 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.afterMethode()[pri:0, instance:null] 145901492
+16:38:04.886 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+16:38:04.886 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+16:38:04.886 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+16:38:04.886 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES

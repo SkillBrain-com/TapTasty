@@ -17,7 +17,7 @@
 17:28:55.044 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
 17:28:55.044 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
 17:28:55.044 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-17:28:55.048 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AddProductToFavoriteTest.addProductToFavorite()[pri:0, instance:taptastytests.AddProductToFavoriteTest@63798ca7] -612196897
+17:28:55.048 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AddProductToFavoriteTest.addProductToFavorite()[pri:0, instance:taptastytestmenu.AddProductToFavoriteTest@63798ca7] -612196897
 17:28:55.048 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
 17:28:55.048 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
 17:28:55.048 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
@@ -38,7 +38,7 @@
 17:33:20.734 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
 17:33:20.734 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
 17:33:20.734 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-17:33:20.739 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AddProductToFavoriteTest.addProductToFavorite()[pri:0, instance:taptastytests.AddProductToFavoriteTest@324a0017] -1437396657
+17:33:20.739 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AddProductToFavoriteTest.addProductToFavorite()[pri:0, instance:taptastytestmenu.AddProductToFavoriteTest@324a0017] -1437396657
 17:33:20.739 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
 17:33:20.739 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
 17:33:20.740 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES

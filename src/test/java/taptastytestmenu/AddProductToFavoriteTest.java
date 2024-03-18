@@ -1,4 +1,4 @@
-package taptastytests;
+package taptastytestmenu;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
