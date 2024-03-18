@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,6 +101,11 @@
                       <a href="#" panel-name="suite-Smoke_Test_Suite" class="show-methods passed suite-Smoke_Test_Suite"> (show)</a> <!-- show-methods passed suite-Smoke_Test_Suite -->
                     </span>
                     <div class="method-list-content passed suite-Smoke_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke_Test_Suite" title="tests.Test_scrie_ne" class="method navigator-link" hash-for-method="fisa_test(valicubalaurualb06@gmail.com, varzamurata666, varzamurata666)">fisa_test(valicubalaurualb06@gmail.com, varzamurata666, varzamurata666)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Smoke_Test_Suite" title="tests.TestLogin" class="method navigator-link" hash-for-method="login_email_and_password(valicubalaurualb06@gmail.com, varzamurata666)">login_email_and_password(valicubalaurualb06@gmail.com, varzamurata666)</a> <!-- method navigator-link -->
@@ -137,6 +142,24 @@
                   <span class="parameters">(valicubalaurualb06@gmail.com,varzamurata666)</span>
                   <em>
 (In acest scenariu se verifica fisa de test cu titlul: Regression Testing Cont : Descarca datele personale )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Smoke_Test_Suite-class-passed -->
+          <div class="suite-Smoke_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.Test_scrie_ne</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fisa_test(valicubalaurualb06@gmail.com, varzamurata666, varzamurata666)">
+                  </a> <!-- fisa_test(valicubalaurualb06@gmail.com, varzamurata666, varzamurata666) -->
+                  <span class="method-name">fisa_test</span>
+                  <span class="parameters">(valicubalaurualb06@gmail.com,varzamurata666,varzamurata666)</span>
+                  <em>
+(se testeaza functionalitatea obtiunii de Scrie-ne de feedback)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -187,6 +210,15 @@
           &lt;/include&gt; &lt;!-- login_email_and_password --&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- tests.Test_Descarca_datele_personale --&gt;
+      &lt;class name=&quot;tests.Test_scrie_ne&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;fisa_test&quot;&gt;
+            &lt;parameter name=&quot;input&quot; value=&quot;varzamurata666&quot;/&gt;
+            &lt;parameter name=&quot;password&quot; value=&quot;varzamurata666&quot;/&gt;
+            &lt;parameter name=&quot;username&quot; value=&quot;valicubalaurualb06@gmail.com&quot;/&gt;
+          &lt;/include&gt; &lt;!-- fisa_test --&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- tests.Test_scrie_ne --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Smoke Test --&gt;
 &lt;/suite&gt; &lt;!-- Smoke Test Suite --&gt;
@@ -200,7 +232,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Smoke Test (2 classes)</span>
+                <span class="test-name">Smoke Test (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -226,20 +258,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'login_email_and_password')
-data.setCell(0, 2, 'tests.Test_Descarca_datele_personale')
-data.setCell(0, 3, 16977);
+data.setCell(0, 1, 'fisa_test')
+data.setCell(0, 2, 'tests.Test_scrie_ne')
+data.setCell(0, 3, 38477);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'login_email_and_password')
-data.setCell(1, 2, 'tests.TestLogin')
-data.setCell(1, 3, 8803);
+data.setCell(1, 2, 'tests.Test_Descarca_datele_personale')
+data.setCell(1, 3, 16908);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'login_email_and_password')
+data.setCell(2, 2, 'tests.TestLogin')
+data.setCell(2, 3, 8635);
 window.suiteTableData['Smoke_Test_Suite']= { tableData: data, tableDiv: 'times-div-Smoke_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 25 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Smoke_Test_Suite">
               </div> <!-- times-div-Smoke_Test_Suite -->
             </div> <!-- times-div -->
@@ -267,23 +303,34 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">tests.TestLogin</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(org.testng.TestRunner@2cde651b)</span>
+                <span class="method-name">setUp(org.testng.TestRunner@4d09cade)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">login_email_and_password(valicubalaurualb06@gmail.com, varzamurata666)</span>
-                <span class="method-start">2388 ms</span>
+                <span class="method-start">2482 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.Test_Descarca_datele_personale</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(org.testng.TestRunner@2cde651b)</span>
-                <span class="method-start">11197 ms</span>
+                <span class="method-name">setUp(org.testng.TestRunner@4d09cade)</span>
+                <span class="method-start">11120 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">login_email_and_password(valicubalaurualb06@gmail.com, varzamurata666)</span>
-                <span class="method-start">13207 ms</span>
+                <span class="method-start">13095 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.Test_scrie_ne</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(org.testng.TestRunner@4d09cade)</span>
+                <span class="method-start">30004 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fisa_test(valicubalaurualb06@gmail.com, varzamurata666, varzamurata666)</span>
+                <span class="method-start">31918 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

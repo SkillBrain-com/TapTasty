@@ -21,6 +21,15 @@
                     </include>
                 </methods>
             </class>
+            <class name="tests.Test_scrie_ne" >
+                <methods>
+                    <include name="fisa_test">
+                        <parameter name="username" value="valicubalaurualb06@gmail.com" />
+                        <parameter name="password" value="varzamurata666" />
+                        <parameter name="input" value="varzamurata666" />
+                    </include>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>

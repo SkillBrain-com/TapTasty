@@ -1,0 +1,46 @@
+21:16:54.267 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+21:16:54.273 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+21:16:54.273 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+21:16:54.273 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+21:16:54.280 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\GG\Desktop\teme qa\INTERNSHIP\RepoAutomatedTests\TapTasty\src\test\resources\properties\TestSuite.xml
+
+22:51:56.200 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\GG\Desktop\teme qa\INTERNSHIP\RepoAutomatedTests\TapTasty\src\test\resources\properties\TestSuite.xml"
+22:51:56.493 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE DriverFactory.setUp(org.testng.ITestContext)[pri:0, instance:null] -1149035357
+22:51:56.494 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+22:51:56.497 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+22:51:56.497 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+22:51:56.497 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+22:51:56.497 [main] WARN  org.testng.internal.Configuration - Detected a static method [common.config.DriverFactory.setUp()]. Static configuration methods can cause unexpected behavior.
+22:51:56.502 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE DriverFactory.setUp(org.testng.ITestContext)[pri:0, instance:null] -1149035357
+22:51:56.502 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+22:51:56.502 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+22:51:56.502 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+22:51:56.502 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+22:51:56.502 [main] WARN  org.testng.internal.Configuration - Detected a static method [common.config.DriverFactory.setUp()]. Static configuration methods can cause unexpected behavior.
+22:51:56.510 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TestLogin.login_email_and_password(java.lang.String,java.lang.String)[pri:0, instance:tests.TestLogin@5dcd8c7a] 1035275493
+22:51:56.510 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE Test_Descarca_datele_personale.login_email_and_password(java.lang.String,java.lang.String)[pri:0, instance:tests.Test_Descarca_datele_personale@76884e4b] -993786308
+22:51:56.510 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+22:51:56.512 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+22:51:56.512 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+22:51:56.512 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+22:51:56.521 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\GG\Desktop\teme qa\INTERNSHIP\RepoAutomatedTests\TapTasty\src\test\resources\properties\TestSuite.xml
+
+00:36:24.791 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\GG\Desktop\teme qa\INTERNSHIP\RepoAutomatedTests\TapTasty\src\test\resources\properties\TestSuite.xml"
+00:36:25.017 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE DriverFactory.setUp(org.testng.ITestContext)[pri:0, instance:null] -1149035357
+00:36:25.017 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+00:36:25.020 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+00:36:25.020 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+00:36:25.020 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+00:36:25.021 [main] WARN  org.testng.internal.Configuration - Detected a static method [common.config.DriverFactory.setUp()]. Static configuration methods can cause unexpected behavior.
+00:36:25.025 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE DriverFactory.setUp(org.testng.ITestContext)[pri:0, instance:null] -1149035357
+00:36:25.025 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+00:36:25.025 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+00:36:25.025 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+00:36:25.025 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+00:36:25.025 [main] WARN  org.testng.internal.Configuration - Detected a static method [common.config.DriverFactory.setUp()]. Static configuration methods can cause unexpected behavior.
+00:36:25.029 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE DriverFactory.setUp(org.testng.ITestContext)[pri:0, instance:null] -1149035357
+00:36:25.029 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+00:36:25.029 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+00:36:25.029 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES

@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="16.908">
+           time="38.477">
     <properties></properties>
 
 
 
             <testcase
-                name="login_email_and_password"
-                time="16.908"
-                classname="tests.Test_Descarca_datele_personale">
+                name="fisa_test"
+                time="38.477"
+                classname="tests.Test_scrie_ne">
             </testcase>
 </testsuite>
