@@ -44,4 +44,18 @@ public class LogInPage extends BasePage {
     public void cartofi() {
         cartofiselect.click();
     }
+
+
+    @FindBy(xpath="//div[@class='accountSettings list no-hairlines']//div[2]//div[2]//div[1]")
+    WebElement infopers;
+    public void info() {
+        infopers.click();
+    }
+
+    @FindBy(xpath="//div[@class='right']//a[@class='link'][normalize-space()='Cont']")
+    WebElement Cont;
+    public void clickCont() {
+        Cont.click();
+    }
+
 }
