@@ -152,6 +152,14 @@ public class LogInPage extends BasePage {
         completed.click();
     }
 
+    @FindBy(xpath = "//*[@id=\"main-view\"]/div/div[3]/div[1]/div[2]/div[1]/ul/li[3]/a/div/div[2]/div")
+    WebElement setOrderHistory;
+    public void setSetOrderHistory(){
+        setOrderHistory.click();
+
+
+    }
+
 
 
 
