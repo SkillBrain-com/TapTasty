@@ -1,12 +1,16 @@
-00:36:25.029 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-00:36:25.033 [main] WARN  org.testng.internal.Configuration - Detected a static method [common.config.DriverFactory.setUp()]. Static configuration methods can cause unexpected behavior.
-00:36:25.041 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TestLogin.login_email_and_password(java.lang.String,java.lang.String)[pri:0, instance:tests.TestLogin@5f0e9815] 1056315520
-00:36:25.041 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE Test_Descarca_datele_personale.login_email_and_password(java.lang.String,java.lang.String)[pri:0, instance:tests.Test_Descarca_datele_personale@93cf163] 1467525460
-00:36:25.042 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE Test_scrie_ne.fisa_test(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Test_scrie_ne@1852a3ff] -1009311416
-00:36:25.042 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-00:36:25.043 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-00:36:25.043 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-00:36:25.043 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-00:36:25.052 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+20:15:36.494 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE Test_Adauga_Adresa.fisa_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Test_Adauga_Adresa@13f95696] -180887931
+20:15:36.497 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+20:15:36.498 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+20:15:36.498 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+20:15:36.498 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+20:15:36.512 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\GG\Desktop\teme qa\INTERNSHIP\RepoAutomatedTests\TapTasty\src\test\resources\properties\TestSuite.xml
 
+20:17:33.780 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TestLogin.login_email_and_password(java.lang.String,java.lang.String)[pri:0, instance:tests.TestLogin@79d94571] 1505805788
+20:17:33.780 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE Test_Adauga_Adresa.fisa_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Test_Adauga_Adresa@13f95696] -180887931
+20:17:33.780 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE Test_Descarca_datele_personale.login_email_and_password(java.lang.String,java.lang.String)[pri:0, instance:tests.Test_Descarca_datele_personale@73a2e526] -1042375401
+20:17:33.780 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE Test_scrie_ne.fisa_test(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Test_scrie_ne@7d64e326] 686383215
+20:17:33.780 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+20:17:33.780 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+20:17:33.780 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+20:17:33.780 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES

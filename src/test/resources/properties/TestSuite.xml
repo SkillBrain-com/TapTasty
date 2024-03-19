@@ -30,6 +30,21 @@
                     </include>
                 </methods>
             </class>
+            <class name="tests.Test_Adauga_Adresa" >
+                <methods>
+                    <include name="fisa_test">
+                        <parameter name="username" value="valicubalaurualb06@gmail.com" />
+                        <parameter name="password" value="varzamurata666" />
+                        <parameter name="input_adresa" value="Adresa test cea frumoasa" />
+                        <parameter name="input_strada" value="Strada cu fata lunga" />
+                        <parameter name="input_nr_strada" value="5f" />
+                        <parameter name="input_bloc" value="4g" />
+                        <parameter name="input_oras" value="Caineni" />
+                        <parameter name="input_judet" value="Amuitat" />
+                        <parameter name="input_alte_detalii" value="kojhgfkjhgffghjklliuytyhjk" />
+                    </include>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>

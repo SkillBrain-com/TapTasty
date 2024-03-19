@@ -3,24 +3,16 @@
 <suite name="Failed suite [Smoke Test Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Smoke Test(failed)">
     <classes>
-      <class name="tests.Test_Descarca_datele_personale">
+      <class name="tests.Test_scrie_ne">
         <methods>
           <include name="setUp"/>
-          <include name="login_email_and_password" invocation-numbers="0">
+          <include name="fisa_test" invocation-numbers="0">
+            <parameter name="input" value="varzamurata666"/>
             <parameter name="password" value="varzamurata666"/>
             <parameter name="username" value="valicubalaurualb06@gmail.com"/>
-          </include> <!-- login_email_and_password -->
+          </include> <!-- fisa_test -->
         </methods>
-      </class> <!-- tests.Test_Descarca_datele_personale -->
-      <class name="tests.TestLogin">
-        <methods>
-          <include name="setUp"/>
-          <include name="login_email_and_password" invocation-numbers="0">
-            <parameter name="password" value="varzamurata666"/>
-            <parameter name="username" value="valicubalaurualb06@gmail.com"/>
-          </include> <!-- login_email_and_password -->
-        </methods>
-      </class> <!-- tests.TestLogin -->
+      </class> <!-- tests.Test_scrie_ne -->
     </classes>
   </test> <!-- Smoke Test(failed) -->
 </suite> <!-- Failed suite [Smoke Test Suite] -->

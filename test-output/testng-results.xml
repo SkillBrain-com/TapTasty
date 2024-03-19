@@ -1,24 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-19T00:36:25 EET" name="Smoke Test Suite" finished-at="2024-03-19T00:37:35 EET" duration-ms="70423">
+  <suite started-at="2024-03-19T20:15:36 EET" name="Smoke Test Suite" finished-at="2024-03-19T20:17:33 EET" duration-ms="116863">
     <groups>
     </groups>
-    <test started-at="2024-03-19T00:36:25 EET" name="Smoke Test" finished-at="2024-03-19T00:37:35 EET" duration-ms="70423">
-      <class name="tests.Test_scrie_ne">
-        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.Test_scrie_ne@1852a3ff]" started-at="2024-03-19T00:36:55 EET" name="setUp" finished-at="2024-03-19T00:36:56 EET" duration-ms="1914" status="PASS">
+    <test started-at="2024-03-19T20:15:36 EET" name="Smoke Test" finished-at="2024-03-19T20:17:33 EET" duration-ms="116863">
+      <class name="tests.Test_Adauga_Adresa">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.Test_Adauga_Adresa@13f95696]" started-at="2024-03-19T20:16:58 EET" name="setUp" finished-at="2024-03-19T20:17:00 EET" duration-ms="2015" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4d09cade]]>
+                <![CDATA[org.testng.TestRunner@1a497286]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="fisa_test(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Test_scrie_ne@1852a3ff]" started-at="2024-03-19T00:36:56 EET" name="fisa_test" description="se testeaza functionalitatea obtiunii de Scrie-ne de feedback" finished-at="2024-03-19T00:37:35 EET" duration-ms="38477" status="PASS">
+        <test-method signature="fisa_test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Test_Adauga_Adresa@13f95696]" started-at="2024-03-19T20:17:00 EET" name="fisa_test" description="se testeaza functionalitatea -Adresele mele- din tabul -Cont-. Se adauga o noua adresa" finished-at="2024-03-19T20:17:33 EET" duration-ms="32822" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[valicubalaurualb06@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[varzamurata666]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Adresa test cea frumoasa]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Strada cu fata lunga]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5f]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4g]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Caineni]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Amuitat]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[kojhgfkjhgffghjklliuytyhjk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fisa_test -->
+      </class> <!-- tests.Test_Adauga_Adresa -->
+      <class name="tests.Test_scrie_ne">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.Test_scrie_ne@7d64e326]" started-at="2024-03-19T20:16:07 EET" name="setUp" finished-at="2024-03-19T20:16:09 EET" duration-ms="1844" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1a497286]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="fisa_test(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Test_scrie_ne@7d64e326]" started-at="2024-03-19T20:16:09 EET" name="fisa_test" description="se testeaza functionalitatea obtiunii de Scrie-ne de feedback" finished-at="2024-03-19T20:16:58 EET" duration-ms="49185" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -36,23 +100,73 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (7ae08c0336af96d6a8cba2723a2271a0)] -> xpath: //a[@class='link popup-close']//i[@class='icon icon-back']] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.111 (9d4c1072da6..., userDataDir: C:\Users\GG\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55900}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55900/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7ae08c0336af96d6a8cba2723a2271a0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (7ae08c0336af96d6a8cba2723a2271a0)] -> xpath: //a[@class='link popup-close']//i[@class='icon icon-back']] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.111 (9d4c1072da6..., userDataDir: C:\Users\GG\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55900}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55900/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7ae08c0336af96d6a8cba2723a2271a0
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at common.base.CommonMethods.clickable(CommonMethods.java:34)
+at common.base.CommonMethods.click(CommonMethods.java:25)
+at WebPage_xpaths_and_methods.Fisa_test_Scrie_ne.click_back_button_locatie_tab(Fisa_test_Scrie_ne.java:22)
+at tests.Test_scrie_ne.fisa_test(Test_scrie_ne.java:39)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fisa_test -->
       </class> <!-- tests.Test_scrie_ne -->
       <class name="tests.TestLogin">
-        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.TestLogin@5f0e9815]" started-at="2024-03-19T00:36:25 EET" name="setUp" finished-at="2024-03-19T00:36:27 EET" duration-ms="2482" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.TestLogin@79d94571]" started-at="2024-03-19T20:15:36 EET" name="setUp" finished-at="2024-03-19T20:15:39 EET" duration-ms="2496" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4d09cade]]>
+                <![CDATA[org.testng.TestRunner@1a497286]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="login_email_and_password(java.lang.String,java.lang.String)[pri:0, instance:tests.TestLogin@5f0e9815]" started-at="2024-03-19T00:36:27 EET" name="login_email_and_password" description="in aceasta metoda se verifica scenariul de login cu email si parola" finished-at="2024-03-19T00:36:36 EET" duration-ms="8635" status="PASS">
+        <test-method signature="login_email_and_password(java.lang.String,java.lang.String)[pri:0, instance:tests.TestLogin@79d94571]" started-at="2024-03-19T20:15:39 EET" name="login_email_and_password" description="in aceasta metoda se verifica scenariul de login cu email si parola" finished-at="2024-03-19T20:15:47 EET" duration-ms="8799" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -70,18 +184,18 @@
         </test-method> <!-- login_email_and_password -->
       </class> <!-- tests.TestLogin -->
       <class name="tests.Test_Descarca_datele_personale">
-        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.Test_Descarca_datele_personale@93cf163]" started-at="2024-03-19T00:36:36 EET" name="setUp" finished-at="2024-03-19T00:36:38 EET" duration-ms="1975" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.Test_Descarca_datele_personale@73a2e526]" started-at="2024-03-19T20:15:47 EET" name="setUp" finished-at="2024-03-19T20:15:50 EET" duration-ms="2232" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4d09cade]]>
+                <![CDATA[org.testng.TestRunner@1a497286]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="login_email_and_password(java.lang.String,java.lang.String)[pri:0, instance:tests.Test_Descarca_datele_personale@93cf163]" started-at="2024-03-19T00:36:38 EET" name="login_email_and_password" description="In acest scenariu se verifica fisa de test cu titlul: Regression Testing Cont : Descarca datele personale " finished-at="2024-03-19T00:36:55 EET" duration-ms="16908" status="PASS">
+        <test-method signature="login_email_and_password(java.lang.String,java.lang.String)[pri:0, instance:tests.Test_Descarca_datele_personale@73a2e526]" started-at="2024-03-19T20:15:50 EET" name="login_email_and_password" description="In acest scenariu se verifica fisa de test cu titlul: Regression Testing Cont : Descarca datele personale " finished-at="2024-03-19T20:16:07 EET" duration-ms="17430" status="PASS">
           <params>
             <param index="0">
               <value>

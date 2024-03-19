@@ -6,22 +6,25 @@
   <component name="ChangeListManager">
     <list default="true" id="c39a5787-d4fb-4065-8c64-017357ed24a5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/automation-2024-03-14.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation-2024-03-14.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/automation-2024-03-19.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation-2024-03-19.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/common/config/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/config/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebPage_xpaths_and_methods/Fisa_test_adresele_mele.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebPage_xpaths_and_methods/Fisa_test_adresele_mele_adauga_adresa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/properties/TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/properties/TestSuite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Smoke Test Suite/Smoke Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Smoke Test Suite/Smoke Test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Smoke Test Suite/Smoke Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Smoke Test Suite/Smoke Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Smoke Test Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Smoke Test Suite/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-tests.TestLogin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-tests.TestLogin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-tests.Test_Descarca_datele_personale.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-tests.Test_Descarca_datele_personale.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-tests.Test_scrie_ne.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-tests.Test_scrie_ne.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/xml/tests.TestLogin_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/tests.TestLogin_results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/xml/tests.Test_Descarca_datele_personale_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/tests.Test_Descarca_datele_personale_results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/tests.Test_scrie_ne_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/tests.Test_scrie_ne_results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,22 +53,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven.taptasty [install].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.C:/Users/GG/Desktop/teme qa/INTERNSHIP/RepoAutomatedTests/TapTasty/src/test/resources/properties/TestSuite.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TC_001_CheckFavorite.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Test1.login_email_and_password.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Unnamed.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;MihaiValentinGeorgescu&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/GG/Desktop/teme qa/INTERNSHIP/RepoAutomatedTests/TapTasty/src/test/resources/properties/TestSuite.xml&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/mircea.dragomir/Documents/Administrativ/Shared/Skillbrain/Internship/TapTasty/Taptasty/src/main/java/org/example/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.taptasty [install].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/GG/Desktop/teme qa/INTERNSHIP/RepoAutomatedTests/TapTasty/src/test/resources/properties/TestSuite.xml.executor": "Run",
+    "TestNG.TC_001_CheckFavorite.executor": "Run",
+    "TestNG.Test1.login_email_and_password.executor": "Run",
+    "TestNG.Test_Adauga_Adresa.executor": "Run",
+    "TestNG.Test_Adauga_Adresa.fisa_test.executor": "Run",
+    "TestNG.Unnamed.executor": "Run",
+    "git-widget-placeholder": "MihaiValentinGeorgescu",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/GG/Desktop/teme qa/INTERNSHIP/RepoAutomatedTests/TapTasty/src/test/resources/properties/TestSuite.xml",
+    "onboarding.tips.debug.path": "C:/Users/mircea.dragomir/Documents/Administrativ/Shared/Skillbrain/Internship/TapTasty/Taptasty/src/main/java/org/example/Main.java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\GG\Desktop\teme qa\INTERNSHIP\RepoAutomatedTests\TapTasty" />
@@ -110,6 +115,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test_Adauga_Adresa" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="taptasty" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/properties/TestSuite.xml" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.Test_Adauga_Adresa" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_Adauga_Adresa.fisa_test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="taptasty" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/properties/TestSuite.xml" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.Test_Adauga_Adresa" />
+      <option name="METHOD_NAME" value="fisa_test" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -131,10 +188,14 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.C:/Users/GG/Desktop/teme qa/INTERNSHIP/RepoAutomatedTests/TapTasty/src/test/resources/properties/TestSuite.xml" />
+      <item itemvalue="TestNG.Test_Adauga_Adresa" />
+      <item itemvalue="TestNG.Test_Adauga_Adresa.fisa_test" />
       <item itemvalue="TestNG.Test1.login_email_and_password" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Test_Adauga_Adresa" />
+        <item itemvalue="TestNG.Test_Adauga_Adresa.fisa_test" />
         <item itemvalue="TestNG.Test1.login_email_and_password" />
       </list>
     </recent_temporary>
