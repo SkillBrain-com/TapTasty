@@ -7,6 +7,7 @@ import taptastycont.AddAddressManual;
 import utils.BasePage;
 import utils.DataGeneration;
 
+//Add a address manul from account
 public class AddAddressManualTest extends BasePage {
 
     @Test

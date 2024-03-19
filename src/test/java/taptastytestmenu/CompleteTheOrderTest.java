@@ -8,7 +8,7 @@ import taptastymenu.AddAProductToCart;
 import taptastymenu.CompleteTheOrder;
 import utils.BasePage;
 
-//Complete the order after adding a product
+//Complete the order after adding a product to cart
 public class CompleteTheOrderTest extends BasePage {
 
     @Test

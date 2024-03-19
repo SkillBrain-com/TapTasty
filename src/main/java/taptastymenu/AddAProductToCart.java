@@ -28,6 +28,7 @@ public class AddAProductToCart {
     }
 
     public void addAProductToCart() throws InterruptedException {
+
         TimeUnit.SECONDS.sleep(2);
         driver.findElement(menuButton).click();
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(burgherMenu)));

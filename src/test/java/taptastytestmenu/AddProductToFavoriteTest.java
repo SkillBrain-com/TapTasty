@@ -2,10 +2,10 @@ package taptastytestmenu;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import taptasty.AddProductToFavorit;
+import taptastymenu.AddProductToFavorit;
 import taptasty.LoginPage;
 import utils.BasePage;
-
+//Add a product to favorite after login
 public class AddProductToFavoriteTest extends BasePage {
 
     @Test

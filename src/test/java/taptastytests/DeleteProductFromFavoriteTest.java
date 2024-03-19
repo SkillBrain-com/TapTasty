@@ -2,7 +2,7 @@ package taptastytests;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import taptasty.AddProductToFavorit;
+import taptastymenu.AddProductToFavorit;
 import taptasty.DeleteProductFromFavorite;
 import taptasty.LoginPage;
 import utils.BasePage;

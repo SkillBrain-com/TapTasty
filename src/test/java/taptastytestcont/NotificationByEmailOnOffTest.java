@@ -6,7 +6,7 @@ import taptasty.LoginPage;
 import taptastycont.NotificationByEmailOnOff;
 import utils.BasePage;
 
-//Turn On/Off the notification by email
+//Turn On/Off the notification by email toggle button
 public class NotificationByEmailOnOffTest extends BasePage {
 
     @Test

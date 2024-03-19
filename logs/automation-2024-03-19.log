@@ -1,0 +1,51 @@
+19:30:13.699 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml"
+19:30:13.829 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.beforeMethode()[pri:0, instance:null] 1881771703
+19:30:13.829 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+19:30:13.830 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+19:30:13.830 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+19:30:13.830 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+19:30:13.831 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.afterMethode()[pri:0, instance:null] 145901492
+19:30:13.833 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+19:30:13.833 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+19:30:13.833 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+19:30:13.833 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+19:30:13.837 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE FavoriteOrdersMenuTest.favoriteOrdersMenu()[pri:0, instance:taptastytestmenu.FavoriteOrdersMenuTest@2f40e5db] -1670751499
+19:30:13.837 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+19:30:13.837 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+19:30:13.837 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+19:30:13.837 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+19:30:13.842 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+19:30:21.436 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE FavoriteOrdersMenuTest.favoriteOrdersMenu()[pri:0, instance:taptastytestmenu.FavoriteOrdersMenuTest@2f40e5db] -1670751499
+19:30:21.436 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+19:30:21.436 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+19:30:21.436 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+19:30:21.436 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+19:31:05.114 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml"
+19:31:05.238 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.beforeMethode()[pri:0, instance:null] 1881771703
+19:31:05.238 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+19:31:05.240 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+19:31:05.240 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+19:31:05.240 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+19:31:05.241 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.afterMethode()[pri:0, instance:null] 145901492
+19:31:05.241 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+19:31:05.241 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+19:31:05.241 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+19:31:05.241 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+19:31:05.245 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE FavoriteOrdersMenuTest.favoriteOrdersMenu()[pri:0, instance:taptastytestmenu.FavoriteOrdersMenuTest@a22cb6a] 2001485956
+19:31:05.245 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+19:31:05.245 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+19:31:05.245 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+19:31:05.245 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+19:31:05.251 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+19:33:52.810 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml"
+19:33:52.941 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.beforeMethode()[pri:0, instance:null] 1881771703
+19:33:52.941 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+19:33:52.943 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+19:33:52.943 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+19:33:52.943 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+19:33:52.944 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.afterMethode()[pri:0, instance:null] 145901492
+19:33:52.944 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING

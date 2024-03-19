@@ -7,7 +7,7 @@ import taptasty.LoginPage;
 import utils.BasePage;
 import utils.DataGeneration;
 
-/*Change the name from personal data*/
+/*Change personal data from account*/
 public class ChangePersonalInformationTest extends BasePage {
 
 

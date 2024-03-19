@@ -7,7 +7,7 @@ import taptastycont.Disconnect;
 import taptastycont.NotificationByEmailOnOff;
 import utils.BasePage;
 
-//Disconnect from the website
+//Disconnect from the website Log out
 public class DisconnectTest extends BasePage {
 
     @Test

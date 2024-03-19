@@ -5,21 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c39a5787-d4fb-4065-8c64-017357ed24a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/taptastymenu/AddAProductToCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taptastymenu/CompleteTheOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/taptastytestmenu/AddAProductToCartTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/taptastytestmenu/CompleteTheOrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taptastymenu/FavoriteOrdersMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/taptastytestmenu/FavoriteOrdersMenuTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/automation-2024-03-11.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation-2024-03-11.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/taptasty/AddProductToFavorit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taptasty/AddProductToFavorit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/taptastytests/AddProductToFavoriteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/taptastytestmenu/AddProductToFavoriteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/taptasty/AddProductToFavorit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taptastymenu/AddProductToFavorit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/taptastymenu/AddAProductToCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taptastymenu/AddAProductToCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/taptastytestcont/AddAddressManualTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/taptastytestcont/AddAddressManualTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/taptastytestcont/ChangePersonalInformationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/taptastytestcont/ChangePersonalInformationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/taptastytestcont/DisconnectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/taptastytestcont/DisconnectTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/taptastytestcont/MyCardsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/taptastytestcont/MyCardsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/taptastytestcont/NotificationByEmailOnOffTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/taptastytestcont/NotificationByEmailOnOffTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/taptastytestcont/OrderHistoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/taptastytestcont/OrderHistoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/taptastytestmenu/AddProductToFavoriteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/taptastytestmenu/AddProductToFavoriteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/taptastytestmenu/CompleteTheOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/taptastytestmenu/CompleteTheOrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/taptastytests/DeleteProductFromFavoriteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/taptastytests/DeleteProductFromFavoriteTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-taptastytests.AddProductToFavoriteTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-taptastytests.AddProductToFavoriteTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-taptastytestmenu.CompleteTheOrderTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-taptastytestmenu.CompleteTheOrderTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
@@ -68,6 +74,7 @@
     "TestNG.CompleteTheOrderTest.completeTheOrder.executor": "Run",
     "TestNG.DeleteProductFromFavoriteTest.deleteProductFromFavorite.executor": "Run",
     "TestNG.DisconnectTest.disconnect.executor": "Debug",
+    "TestNG.FavoriteOrdersMenuTest.favoriteOrdersMenu.executor": "Run",
     "TestNG.FavoriteOrdersTest.myCards.executor": "Run",
     "TestNG.FirstProductToCartTest.firstProductTest.executor": "Run",
     "TestNG.LoginPageTest.loginPage.executor": "Run",
@@ -82,7 +89,7 @@
     "onboarding.tips.debug.path": "C:/Users/mircea.dragomir/Documents/Administrativ/Shared/Skillbrain/Internship/TapTasty/Taptasty/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.CompleteTheOrderTest.completeTheOrder">
+  <component name="RunManager" selected="TestNG.FavoriteOrdersMenuTest.favoriteOrdersMenu">
     <configuration name="AddAProductToCartTest.addToCart" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="taptasty" />
       <shortenClasspath name="NONE" />
@@ -228,6 +235,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FavoriteOrdersMenuTest.favoriteOrdersMenu" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="taptasty" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="taptastytestmenu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="taptastytestmenu" />
+      <option name="MAIN_CLASS_NAME" value="taptastytestmenu.FavoriteOrdersMenuTest" />
+      <option name="METHOD_NAME" value="favoriteOrdersMenu" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -251,9 +287,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FavoriteOrdersMenuTest.favoriteOrdersMenu" />
         <item itemvalue="TestNG.CompleteTheOrderTest.completeTheOrder" />
         <item itemvalue="TestNG.AddProductToFavoriteTest.addProductToFavorite" />
-        <item itemvalue="TestNG.AddProductToFavoriteTest.addProductToFavorite (1)" />
         <item itemvalue="TestNG.AddAProductToCartTest.addToCart" />
         <item itemvalue="TestNG.AddAddressManualTest.addressManual" />
       </list>
@@ -325,21 +361,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/taptastycont/NotificationByEmailOnOff.java</url>
           <line>28</line>
           <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/taptastymenu/CompleteTheOrder.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/taptastymenu/CompleteTheOrder.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/taptastymenu/CompleteTheOrder.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
