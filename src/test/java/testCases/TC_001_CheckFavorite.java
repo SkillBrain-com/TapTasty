@@ -5,7 +5,10 @@ import org.testng.annotations.Test;
 import pageObjects.HomePage;
 import pageObjects.LogInPage;
 import testBase.BaseClass;
-
+//
+//
+//
+//
 public class TC_001_CheckFavorite extends BaseClass{
 
 	@Test

@@ -35,13 +35,35 @@ public class LogInPage extends BasePage {
 
     @FindBy(xpath="//li[5]//div[1]//div[1]//div[1]//img[1]")
     WebElement gustari;
+    @FindBy(xpath="//li[10]//div[1]//div[1]//div[1]//img[1]")
+    WebElement bauturi;
+
     public void aleggustari() {
         gustari.click();
+    }
+    public void alegbauturi() {
+        bauturi.click();
     }
 
     @FindBy(xpath="//span[contains(text(),'Cartofi prăjiți cu crustă crocantă - 170 gr')]")
     WebElement cartofiselect;
+    @FindBy(xpath="//span[normalize-space()='COCA COLA']")
+    WebElement colaselect;
+
+
     public void cartofi() {
         cartofiselect.click();
     }
+    public void cola() {
+        colaselect.click();
+    }
+
+    @FindBy(xpath="//p[contains(text(),'Adaugă în coș')]")
+    WebElement adaugaincosselect;
+    public void adaugaincos(){adaugaincosselect.click();}
+
+    @FindBy(xpath="//div[@class='right']//img")
+    WebElement cosselect;
+    public void clickcos(){cosselect.click();}
+
 }
