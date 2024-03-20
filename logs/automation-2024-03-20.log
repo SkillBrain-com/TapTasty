@@ -1,52 +1,51 @@
-17:36:45.541 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml"
-17:36:45.674 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.beforeMethode()[pri:0, instance:null] 1881771703
-17:36:45.674 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-17:36:45.676 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-17:36:45.676 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-17:36:45.676 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-17:36:45.677 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.afterMethode()[pri:0, instance:null] 145901492
-17:36:45.677 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-17:36:45.677 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-17:36:45.677 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-17:36:45.677 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-17:36:45.681 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AddTipToOrderTest.addTipOrder()[pri:0, instance:taptastytestmenu.AddTipToOrderTest@43f82e78] -308956041
-17:36:45.681 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-17:36:45.681 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-17:36:45.681 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-17:36:45.681 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-17:36:45.687 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+18:37:20.768 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+18:37:20.771 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.afterMethode()[pri:0, instance:null] 145901492
+18:37:20.772 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+18:37:20.772 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+18:37:20.772 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+18:37:20.772 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+18:37:20.775 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE CheckThePriceBeforeOrderTest.checkThePriceBeforeOrder()[pri:0, instance:taptastytestmenu.CheckThePriceBeforeOrderTest@59b38691] 982349209
+18:37:20.776 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+18:37:20.776 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+18:37:20.776 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+18:37:20.776 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+18:37:20.781 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
 
-17:36:58.981 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AddTipToOrderTest.addTipOrder()[pri:0, instance:taptastytestmenu.AddTipToOrderTest@43f82e78] -308956041
-17:36:58.981 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-17:36:58.981 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-17:36:58.981 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-17:36:58.981 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-17:37:18.833 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml"
-17:37:18.960 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.beforeMethode()[pri:0, instance:null] 1881771703
-17:37:18.961 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-17:37:18.962 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-17:37:18.962 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-17:37:18.963 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-17:37:18.963 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.afterMethode()[pri:0, instance:null] 145901492
-17:37:18.963 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-17:37:18.963 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-17:37:18.964 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-17:37:18.964 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-17:37:18.967 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AddTipToOrderTest.addTipOrder()[pri:0, instance:taptastytestmenu.AddTipToOrderTest@55322aab] -19943254
-17:37:18.967 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-17:37:18.967 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-17:37:18.968 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-17:37:18.968 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-17:37:18.973 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+18:38:02.590 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE CheckThePriceBeforeOrderTest.checkThePriceBeforeOrder()[pri:0, instance:taptastytestmenu.CheckThePriceBeforeOrderTest@59b38691] 982349209
+18:38:02.590 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+18:38:02.591 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+18:38:02.591 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+18:38:02.591 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+18:38:49.365 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml"
+18:38:49.490 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.beforeMethode()[pri:0, instance:null] 1881771703
+18:38:49.491 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+18:38:49.493 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+18:38:49.493 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+18:38:49.493 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+18:38:49.494 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.afterMethode()[pri:0, instance:null] 145901492
+18:38:49.494 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+18:38:49.494 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+18:38:49.494 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+18:38:49.494 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+18:38:49.498 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE CheckThePriceBeforeOrderTest.checkThePriceBeforeOrder()[pri:0, instance:taptastytestmenu.CheckThePriceBeforeOrderTest@2e2ff723] 252306987
+18:38:49.498 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+18:38:49.498 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+18:38:49.498 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+18:38:49.499 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+18:38:49.505 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
 
-17:47:39.943 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml"
-17:47:40.079 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.beforeMethode()[pri:0, instance:null] 1881771703
-17:47:40.080 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-17:47:40.081 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-17:47:40.082 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-17:47:40.082 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-17:47:40.082 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.afterMethode()[pri:0, instance:null] 145901492
-17:47:40.082 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-17:47:40.082 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+18:39:01.569 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE CheckThePriceBeforeOrderTest.checkThePriceBeforeOrder()[pri:0, instance:taptastytestmenu.CheckThePriceBeforeOrderTest@2e2ff723] 252306987
+18:39:01.569 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+18:39:01.569 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+18:39:01.569 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+18:39:01.569 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+18:43:01.692 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml"
+18:43:01.818 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.beforeMethode()[pri:0, instance:null] 1881771703
+18:43:01.819 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+18:43:01.820 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+18:43:01.820 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+18:43:01.820 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+18:43:01.821 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.afterMethode()[pri:0, instance:null] 145901492
+18:43:01.821 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING

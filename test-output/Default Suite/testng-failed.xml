@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="TapTasty(failed)">
     <classes>
-      <class name="taptastytestmenu.AddTipToOrderTest">
+      <class name="taptastytestmenu.CheckThePriceBeforeOrderTest">
         <methods>
+          <include name="checkThePriceBeforeOrder"/>
           <include name="afterMethode"/>
-          <include name="addTipOrder"/>
           <include name="beforeMethode"/>
         </methods>
-      </class> <!-- taptastytestmenu.AddTipToOrderTest -->
+      </class> <!-- taptastytestmenu.CheckThePriceBeforeOrderTest -->
     </classes>
   </test> <!-- TapTasty(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->
