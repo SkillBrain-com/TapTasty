@@ -1,4 +1,4 @@
-package taptasty;
+package taptastymenu;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

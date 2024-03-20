@@ -1,17 +1,16 @@
-19:33:52.944 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-19:33:52.947 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-19:33:52.947 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-19:33:52.950 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE FavoriteOrdersMenuTest.favoriteOrdersMenu()[pri:0, instance:taptastytestmenu.FavoriteOrdersMenuTest@324a0017] -1619823311
-19:33:52.950 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-19:33:52.950 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-19:33:52.950 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-19:33:52.951 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-19:33:52.957 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+17:47:40.083 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+17:47:40.085 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+17:47:40.089 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AddTipToOrderTest.addTipOrder()[pri:0, instance:taptastytestmenu.AddTipToOrderTest@55322aab] -19943254
+17:47:40.089 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+17:47:40.089 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+17:47:40.089 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+17:47:40.089 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+17:47:40.095 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
 
-19:33:54.230 [main] INFO  utils.BasePage - **** starting TC_FavoriteOrdersMenu *****
-19:33:54.230 [main] DEBUG utils.BasePage - application logs started......
-19:33:55.332 [main] INFO  utils.BasePage - Log in
-19:33:56.419 [main] INFO  utils.BasePage - Check the favorite orders
-19:34:00.787 [main] DEBUG utils.BasePage - application logs end.......
-19:34:00.787 [main] INFO  utils.BasePage - **** finished TC_CompleteTheOrder *****
+17:47:41.302 [main] INFO  utils.BasePage - **** starting TC_AddTipToOrder *****
+17:47:41.302 [main] DEBUG utils.BasePage - application logs started......
+17:47:42.322 [main] INFO  utils.BasePage - Log in
+17:47:43.395 [main] INFO  utils.BasePage - Add a product to cart and add a tip
+17:47:52.856 [main] DEBUG utils.BasePage - application logs end.......
+17:47:52.856 [main] INFO  utils.BasePage - **** finished TC_AddTipToOrder *****

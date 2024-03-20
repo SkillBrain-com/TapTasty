@@ -1,11 +1,12 @@
-package taptastytests;
+package taptastytestmenu;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import taptastymenu.AddProductToFavorit;
-import taptasty.DeleteProductFromFavorite;
+import taptastymenu.DeleteProductFromFavorite;
 import taptasty.LoginPage;
 import utils.BasePage;
+
 
 public class DeleteProductFromFavoriteTest extends BasePage {
     @Test
