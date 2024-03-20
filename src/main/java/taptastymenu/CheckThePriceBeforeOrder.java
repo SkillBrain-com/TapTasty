@@ -55,9 +55,9 @@ public class CheckThePriceBeforeOrder {
         driver.findElement(addExtra2).click();
 
         String textBeforeCart = driver.findElement(checkPrice).getText();
-        String cutText = textBeforeCart.substring(7);    /*aici am facut un substring ca textul care il copia
+        String cutText = textBeforeCart.substring(7);    /*aici am facut un split cu substring ca textul care il copia
                                                                     era "Total: 34.00 lei" inainte sa adaug in cart
-                                                                    si in cart cand copiezi textul
+                                                                    si din cart cand copiezi textul
                                                                     ai doar valorea 34.00 lei si ca sa fie egale cand fac cu Assert
                                                                     am inceput de la indexul 7 sa taie "Total: " sa ramana 34.00 lei*/
 
