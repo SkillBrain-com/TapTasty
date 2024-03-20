@@ -34,8 +34,10 @@ public class TC_001_CheckFavorite extends BaseClass{
 
 			regpage.setEmail("mircea.dragomir93+5@gmail.com");
 			regpage.password("testare");
-
-			regpage.clickLogin();
+			
+			Actions actions = new Actions(driver);
+			actions.moveToElement(driver.findElement(By.id("validateLogin"))).click();
+			
 			regpage.clickmenu();
 			logger.info("Click menu");
 			regpage.aleggustari();
