@@ -20,7 +20,7 @@ public class BaseClass {
 	public void setup()
 	{
 		logger=LogManager.getLogger(this.getClass());//Log4j
-
+		System.setProperty("ChromeDriver","src/main/resources/chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

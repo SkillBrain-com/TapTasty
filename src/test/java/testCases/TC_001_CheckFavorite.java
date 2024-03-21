@@ -1,6 +1,7 @@
 
 package testCases;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObjects.HomePage;
 import pageObjects.LogInPage;
@@ -37,6 +38,7 @@ public class TC_001_CheckFavorite extends BaseClass{
 			regpage.password("testare");
 
 			regpage.clickLogin();
+			Thread.sleep(2000);
 			regpage.clickmenu();
 			logger.info("Click menu");
 			regpage.aleggustari();
@@ -49,7 +51,7 @@ public class TC_001_CheckFavorite extends BaseClass{
 		{
 			logger.error("test failed..");
 			logger.debug("debug logs....");
-			fail();
+			Assert.fail();
 		}
 
 		logger.debug("application logs end.......");
