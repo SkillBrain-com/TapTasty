@@ -26,7 +26,7 @@ public class AddMoreProductsToCartAndDeleteAll {
     By checkCartButton = By.xpath("//i/span[@class = 'cartNotification badge']");
     By deleteAllTheProducts = By.xpath("//a[@class = 'button']//span");
     By okButton = By.xpath("//span[@class = 'dialog-button dialog-button-bold']");
-    By checkEmptyIsEmpty = By.xpath("//div[@class = 'item-inner']//div");
+    By checkCartIsEmpty = By.xpath("//div[@class = 'item-inner']//div");
 
 
     public WebDriver driver;
@@ -82,8 +82,8 @@ public class AddMoreProductsToCartAndDeleteAll {
         wait.until(ExpectedConditions.elementToBeClickable(okButton));
         driver.findElement(okButton).click();
 
-        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(checkEmptyIsEmpty));
-        String textCart = driver.findElement(checkEmptyIsEmpty).getText();
+        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(checkCartIsEmpty));
+        String textCart = driver.findElement(checkCartIsEmpty).getText();
 
         Assert.assertEquals(textCart,"Coșul este gol!");
 
