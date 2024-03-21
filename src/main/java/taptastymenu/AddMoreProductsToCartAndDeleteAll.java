@@ -1,5 +1,6 @@
 package taptastymenu;
 
+import org.apache.poi.ss.formula.functions.T;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
@@ -57,17 +58,13 @@ public class AddMoreProductsToCartAndDeleteAll {
 
 
 
-        wait.until(ExpectedConditions.visibilityOf(driver.findElement(bigBoxMenu)));
+        TimeUnit.SECONDS.sleep(1);
         driver.findElement(bigBoxMenu).click();
-        wait.until(ExpectedConditions.visibilityOfElementLocated(firstProductBox));
+        TimeUnit.SECONDS.sleep(1);
         driver.findElement(firstProductBox).click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(addToCartButton));
         driver.findElement(addToCartButton).click();
-        wait.until(ExpectedConditions.visibilityOfElementLocated(noMoreProductsButton));
-        driver.findElement(noMoreProductsButton).click();
-        driver.manage().window().setSize(newSize);
-        driver.findElement(backButton).click();
-        driver.manage().window().maximize();
+
 
 
 

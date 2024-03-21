@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c39a5787-d4fb-4065-8c64-017357ed24a5" name="Changes" comment="" />
+    <list default="true" id="c39a5787-d4fb-4065-8c64-017357ed24a5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/automation-2024-03-21.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation-2024-03-21.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/taptastymenu/AddMoreProductsToCartAndDeleteAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taptastymenu/AddMoreProductsToCartAndDeleteAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/taptastytestmenu/AddMoreProductsToCartAndDeleteAllTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/taptastytestmenu/AddMoreProductsToCartAndDeleteAllTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-taptastytestmenu.AddMoreInformationToOrderTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-taptastytestmenu.AddMoreInformationToOrderTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-taptastytestmenu.AddMoreProductsToCartAndDeleteAllTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-taptastytestmenu.AddMoreProductsToCartAndDeleteAllTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -240,8 +253,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.AddMoreProductsToCartAndDeleteAllTest.addMoreProductsToCartAndDeleteAll" />
-        <item itemvalue="TestNG.CheckThePriceBeforeOrderTest.checkThePriceBeforeOrder" />
         <item itemvalue="TestNG.AddMoreInformationToOrderTest.addMoreInformationToOrder" />
+        <item itemvalue="TestNG.CheckThePriceBeforeOrderTest.checkThePriceBeforeOrder" />
         <item itemvalue="TestNG.AddTipToOrderTest.addTipOrder" />
         <item itemvalue="TestNG.DeleteProductFromFavoriteTest.deleteProductFromFavorite" />
       </list>
@@ -303,6 +316,26 @@
           <url>file://$PROJECT_DIR$/src/main/java/taptastycont/NotificationByEmailOnOff.java</url>
           <line>28</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/taptastymenu/AddMoreProductsToCartAndDeleteAll.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/taptastymenu/AddMoreProductsToCartAndDeleteAll.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/taptastymenu/AddMoreProductsToCartAndDeleteAll.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/taptastymenu/AddMoreProductsToCartAndDeleteAll.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
