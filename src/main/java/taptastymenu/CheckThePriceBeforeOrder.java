@@ -45,7 +45,6 @@ public class CheckThePriceBeforeOrder {
 
 
         actions.moveToElement(driver.findElement(dimensionPizzaButton)).perform();
-
         driver.findElement(dimensionPizzaButton).click();
 
         actions.moveToElement(driver.findElement(addExtra1)).perform();
