@@ -1,0 +1,55 @@
+14:23:15.872 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+14:23:15.876 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+14:23:15.878 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.tearDown()[pri:0, instance:null] 829687191
+14:23:15.878 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+14:23:15.878 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+14:23:15.879 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+14:23:15.879 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+14:23:15.883 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TC_001_CheckFavorite.verify_cart()[pri:0, instance:testCases.TC_001_CheckFavorite@64b73e7a] 850299510
+14:23:15.883 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+14:23:15.883 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+14:23:15.883 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+14:23:15.884 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+14:23:15.887 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Dante\AppData\Local\JetBrains\IdeaIC2023.2\temp-testng-customsuite.xml
+
+14:23:22.994 [main] INFO  testCases.TC_001_CheckFavorite - **** starting TC_001_CheckFavorite  *****
+14:23:22.995 [main] DEBUG testCases.TC_001_CheckFavorite - application logs started......
+14:23:23.119 [main] INFO  testCases.TC_001_CheckFavorite - Clicked on Login button
+14:23:23.119 [main] INFO  testCases.TC_001_CheckFavorite - Going to login page
+14:24:08.180 [main] ERROR testCases.TC_001_CheckFavorite - test failed..
+14:24:08.180 [main] DEBUG testCases.TC_001_CheckFavorite - debug logs....
+14:43:33.528 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Dante\AppData\Local\JetBrains\IdeaIC2023.2\temp-testng-customsuite.xml"
+14:43:33.682 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.setup()[pri:0, instance:null] -1422203584
+14:43:33.683 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+14:43:33.684 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+14:43:33.684 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+14:43:33.684 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+14:43:33.686 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.tearDown()[pri:0, instance:null] 829687191
+14:43:33.686 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+14:43:33.686 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+14:43:33.686 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+14:43:33.686 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+14:43:33.690 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TC_001_CheckFavorite.verify_cart()[pri:0, instance:testCases.TC_001_CheckFavorite@530712d] -752370391
+14:43:33.690 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+14:43:33.690 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+14:43:33.690 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+14:43:33.690 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+14:43:33.694 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Dante\AppData\Local\JetBrains\IdeaIC2023.2\temp-testng-customsuite.xml
+
+14:43:40.656 [main] INFO  testCases.TC_001_CheckFavorite - **** starting TC_001_CheckFavorite  *****
+14:43:40.656 [main] DEBUG testCases.TC_001_CheckFavorite - application logs started......
+14:43:40.722 [main] INFO  testCases.TC_001_CheckFavorite - Clicked on Login button
+14:43:40.723 [main] INFO  testCases.TC_001_CheckFavorite - Going to login page
+14:44:25.865 [main] ERROR testCases.TC_001_CheckFavorite - test failed..
+14:44:25.865 [main] DEBUG testCases.TC_001_CheckFavorite - debug logs....
+21:20:18.595 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Dante\AppData\Local\JetBrains\IdeaIC2023.2\temp-testng-customsuite.xml"
+21:20:18.764 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.setup()[pri:0, instance:null] -1422203584
+21:20:18.765 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+21:20:18.767 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+21:20:18.767 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+21:20:18.767 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+21:20:18.769 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.tearDown()[pri:0, instance:null] 829687191
+21:20:18.769 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+21:20:18.769 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
