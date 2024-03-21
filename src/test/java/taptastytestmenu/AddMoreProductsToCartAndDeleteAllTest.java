@@ -9,8 +9,8 @@ import utils.BasePage;
 //After login, click menu
 // add to cart from burgher menu first product,
 // go back and select Bigbox menu from the footer menu,
-//select first product, go back select rollz menu and select secand product
-//go to cart and delete all the items, and verify is th cart is empty
+//select first product, go back select rollz menu and select second product
+//go to cart and delete all the items, and verify if the cart is empty
 public class AddMoreProductsToCartAndDeleteAllTest extends BasePage {
 
     @Test
