@@ -1,5 +1,6 @@
 package testCases.Cont;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObjects.HomePage;
 import pageObjects.LogInPage;
@@ -22,7 +23,7 @@ public class OrderHistory extends BaseClass {
             LogInPage regpage = new LogInPage(driver);
 
             regpage.setEmail("radu.bobanga14@gmail.com");
-            regpage.password("test12345678");
+            regpage.password("test123456");
 
             regpage.clickLogin();
             Thread.sleep(2000);
@@ -33,12 +34,12 @@ public class OrderHistory extends BaseClass {
             regpage.clickorder();
             Thread.sleep(2000);
             regpage.clickaddfavorite();
-
+            Thread.sleep(2000);
 
         } catch (Exception exception) {
             logger.error("test failed..");
             logger.debug("debug logs....");
-            //Assert.fail();
+            Assert.fail();
         }
         logger.debug("application logs end.......");
         logger.info("**** Order_History *****");

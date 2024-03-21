@@ -26,7 +26,7 @@ public class PersonalInformation extends BaseClass {
             LogInPage regpage = new LogInPage(driver);
 
             regpage.setEmail("radu.bobanga14@gmail.com");
-            regpage.password("test12345678");
+            regpage.password("test123456");
 
             regpage.clickLogin();
             Thread.sleep(2000);
@@ -45,15 +45,10 @@ public class PersonalInformation extends BaseClass {
             regpage.clicksaveinfobtn();
             Thread.sleep(2000);
 
-
-
-
-
-
        } catch (Exception exception){
             logger.error("test failed..");
             logger.debug("debug logs....");
-            //Assert.fail();
+            Assert.fail();
         }
        logger.debug("application logs end.......");
        logger.info("**** Personal_Information *****");

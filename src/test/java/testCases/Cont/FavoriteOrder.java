@@ -1,5 +1,8 @@
 package testCases.Cont;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObjects.HomePage;
 import pageObjects.LogInPage;
@@ -23,7 +26,7 @@ public class FavoriteOrder extends BaseClass {
             LogInPage regpage = new LogInPage(driver);
 
             regpage.setEmail("radu.bobanga14@gmail.com");
-            regpage.password("test12345678");
+            regpage.password("test123456");
 
             regpage.clickLogin();
             Thread.sleep(2000);
@@ -40,7 +43,7 @@ public class FavoriteOrder extends BaseClass {
         } catch (Exception exception) {
             logger.error("test failed..");
             logger.debug("debug logs....");
-            //Assert.fail();
+            Assert.fail();
         }
         logger.debug("application logs end.......");
         logger.info("**** Favorite_Order *****");

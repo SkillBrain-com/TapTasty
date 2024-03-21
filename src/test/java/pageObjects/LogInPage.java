@@ -207,7 +207,7 @@ public class LogInPage extends BasePage {
         favorder.click();
     }
 
-    @FindBy(xpath = "//*[@id=\"main-view\"]/div/div[2]/div/ul/li/div/div/div[2]/div[2]/a")
+    @FindBy(xpath = "//a[contains(text(),'Adaugă la favorite')]")
     WebElement addcartfavorder;
 
     public void clickaddfavorder() {
@@ -228,14 +228,14 @@ public class LogInPage extends BasePage {
         doublechickenmayomenu.click();
     }
 
-    @FindBy(xpath = "//*[@id=\"114898\"]")
+    @FindBy(xpath = "//input[@id='114884']")
     WebElement pepsi;
 
     public void checkpepsi() {
         pepsi.click();
     }
 
-    @FindBy(xpath = "//*[@id=\"114903\"]")
+    @FindBy(xpath = "//input[@id='114889']")
     WebElement sosderosiidulce;
 
     public void checksosderosiidulce() {
@@ -271,7 +271,7 @@ public class LogInPage extends BasePage {
     @FindBy(xpath = "//*[@id=\"validateChhangePass\"]/ul/li[2]/div/div/li/div/div/div/input")
     WebElement confirmnewpassword;
     public void enterconfirmpassword(){
-        confirmnewpassword.sendKeys("test123456789");
+        confirmnewpassword.sendKeys("test12345678910");
     }
 
     @FindBy(xpath = "//*[@id=\"main-view\"]/div/div[2]/div/div/div/a")

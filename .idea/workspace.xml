@@ -4,15 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c39a5787-d4fb-4065-8c64-017357ed24a5" name="Changes" comment="">
+    <list default="true" id="c39a5787-d4fb-4065-8c64-017357ed24a5" name="Changes" comment="Tests for Cont">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/LogInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/Cont/AdreseleMele.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/Cont/AdreseleMele.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/Cont/AppLanguage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/Cont/AppLanguage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/Cont/ChangePassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/Cont/ChangePassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/Cont/EmailNotifications.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/Cont/EmailNotifications.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/Cont/FavoriteOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/Cont/FavoriteOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/Cont/MyCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/Cont/MyCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/Cont/Newsletter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/Cont/Newsletter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/Cont/OrderDoubleChickenMayoBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/Cont/OrderDoubleChickenMayoBurger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/Cont/OrderHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/Cont/OrderHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/Cont/PersonalInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/Cont/PersonalInformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/Cont/Promotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/Cont/Promotion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -31,24 +57,118 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.AdreseleMele.changesMyAddress.executor": "Run",
+    "TestNG.AdreseleMele.modificareInfo.executor": "Run",
+    "TestNG.AppLanguage.changesAppLanguage.executor": "Run",
+    "TestNG.ChangePassword.changesChangePassword.executor": "Run",
+    "TestNG.EmailNotifications.changesAppLanguage.executor": "Run",
+    "TestNG.EmailNotifications.changesEmailNotification.executor": "Run",
+    "TestNG.FavoriteOrder.changesFavoriteOrder.executor": "Run",
+    "TestNG.FavoriteOrder.executor": "Run",
+    "TestNG.InformatiiPersonale.modificareInfo.executor": "Run",
+    "TestNG.MyCard.ChangesMyCard.executor": "Run",
+    "TestNG.MyCard.modificareInfo.executor": "Run",
+    "TestNG.Newsletter.changesNewsletter.executor": "Run",
+    "TestNG.OrderDoubleChickenMayoBurger.changesOrderHistory.executor": "Run",
+    "TestNG.OrderHistory.changesOrderHistory.executor": "Run",
+    "TestNG.OrderHistory.modificareInfo.executor": "Run",
+    "TestNG.PersonalInformation.changesInfo.executor": "Run",
+    "TestNG.PersonalInformation.executor": "Run",
+    "TestNG.PersonalInformation.modificareInfo.executor": "Run",
+    "TestNG.Promotion.changesPromotion.executor": "Run",
     "TestNG.TC_001_CheckFavorite.executor": "Run",
-    "git-widget-placeholder": "main",
+    "TestNG.TC_001_CheckFavorite.verify_cart.executor": "Run",
+    "git-widget-placeholder": "Radu",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/mircea.dragomir/Documents/Administrativ/Shared/Skillbrain/Internship/TapTasty/Taptasty/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="TC_001_CheckFavorite" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Promotion.changesPromotion">
+    <configuration name="MyCard.ChangesMyCard" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TapTasty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testCases.*" />
+          <option name="PATTERN" value="testCases.Cont.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testCases" />
-      <option name="MAIN_CLASS_NAME" value="testCases.TC_001_CheckFavorite" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="testCases.Cont" />
+      <option name="MAIN_CLASS_NAME" value="testCases.Cont.MyCard" />
+      <option name="METHOD_NAME" value="ChangesMyCard" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Newsletter.changesNewsletter" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TapTasty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testCases.Cont.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testCases.Cont" />
+      <option name="MAIN_CLASS_NAME" value="testCases.Cont.Newsletter" />
+      <option name="METHOD_NAME" value="changesNewsletter" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderDoubleChickenMayoBurger.changesOrderHistory" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TapTasty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testCases.Cont.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testCases.Cont" />
+      <option name="MAIN_CLASS_NAME" value="testCases.Cont.OrderDoubleChickenMayoBurger" />
+      <option name="METHOD_NAME" value="changesOrderHistory" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderHistory.changesOrderHistory" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TapTasty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testCases.Cont.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testCases.Cont" />
+      <option name="MAIN_CLASS_NAME" value="testCases.Cont.OrderHistory" />
+      <option name="METHOD_NAME" value="changesOrderHistory" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Promotion.changesPromotion" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TapTasty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testCases.Cont.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testCases.Cont" />
+      <option name="MAIN_CLASS_NAME" value="testCases.Cont.Promotion" />
+      <option name="METHOD_NAME" value="changesPromotion" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -57,7 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TC_001_CheckFavorite" />
+        <item itemvalue="TestNG.Promotion.changesPromotion" />
+        <item itemvalue="TestNG.OrderHistory.changesOrderHistory" />
+        <item itemvalue="TestNG.OrderDoubleChickenMayoBurger.changesOrderHistory" />
+        <item itemvalue="TestNG.Newsletter.changesNewsletter" />
+        <item itemvalue="TestNG.MyCard.ChangesMyCard" />
       </list>
     </recent_temporary>
   </component>
@@ -77,7 +201,29 @@
       <option name="presentableId" value="Default" />
       <updated>1705774279187</updated>
     </task>
+    <task id="LOCAL-00001" summary="Radu">
+      <option name="closed" value="true" />
+      <created>1710263175645</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710263175645</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Tests for Cont">
+      <option name="closed" value="true" />
+      <created>1710796672317</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710796672317</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Radu" />
+    <MESSAGE value="Tests for Cont" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tests for Cont" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
