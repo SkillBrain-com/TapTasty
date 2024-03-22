@@ -9,8 +9,9 @@ import utils.BasePage;
 //Add to cart 3 products, from burgher menu first product
 //from BigBox first product
 //from Rollz second product
-//view the cart and delete two products from the cart
-//verify if we still have 1 product in the cart
+//view the cart and delete two products (Burgher and BigBox products) from the cart
+//verify if we still have 1 item in the cart and the name of the product (from Rollz menu -> CHILLI-MAYO ROLL)
+
 public class AddToCartProductsAndDeleteTwoTest extends BasePage {
 
     @Test

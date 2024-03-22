@@ -29,7 +29,7 @@ public class AddToCartProductsAndDeleteTwo {
     By deleteSecondProduct = By.xpath("(//a[@class = 'delete button'])[2]//span");
     By okButton = By.xpath("//span[@class = 'dialog-button dialog-button-bold']");
     By userList = By.xpath("//div[@class = 'ueserCart list']");
-    By productsOnCart = By.xpath("//div[@class = 'item-media']");
+    By productsOnCart = By.xpath("//div[@class = 'item-inner']/p[@class = 'nameProduct']");
 
 
     public WebDriver driver;
@@ -88,6 +88,10 @@ public class AddToCartProductsAndDeleteTwo {
 
         List<WebElement> sizeList = list.findElements(productsOnCart);
         System.out.println("Size of the list is = " + sizeList.size());
+        for(int i = 0; i < sizeList.size();i++){
+            System.out.println(sizeList.get(i).getText());
+            Assert.assertEquals(sizeList.get(i).getText(),"CHILLI-MAYO ROLL");
+        }
 
         Assert.assertEquals(sizeList.size(),1);
 
