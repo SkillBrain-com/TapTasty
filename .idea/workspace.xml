@@ -5,17 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c39a5787-d4fb-4065-8c64-017357ed24a5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/taptastymenu/AddToCartProductsAndDeleteTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/taptastytestmenu/AddToCartProductsAndDeleteTwoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/automation-2024-03-21.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation-2024-03-21.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/taptastymenu/AddMoreProductsToCartAndDeleteAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taptastymenu/AddMoreProductsToCartAndDeleteAll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/taptastytestmenu/AddMoreProductsToCartAndDeleteAllTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/taptastytestmenu/AddMoreProductsToCartAndDeleteAllTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-taptastytestmenu.AddMoreInformationToOrderTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-taptastytestmenu.AddMoreInformationToOrderTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-taptastytestmenu.AddMoreProductsToCartAndDeleteAllTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-taptastytestmenu.AddMoreProductsToCartAndDeleteAllTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-taptastytestmenu.CheckThePriceBeforeOrderTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-taptastytestmenu.CheckThePriceBeforeOrderTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,11 +60,13 @@
     "TestNG.AddMoreProductsToCartAndDeleteAllTest.addMoreProductsToCartAndDeleteAll.executor": "Run",
     "TestNG.AddProductToFavoriteTest.addProductToFavorite (1).executor": "Run",
     "TestNG.AddProductToFavoriteTest.addProductToFavorite.executor": "Run",
+    "TestNG.AddProductsToCartAndDeleteOneTest.addProductToCartAndDeleteOne.executor": "Run",
     "TestNG.AddTipToOrderTest.addTipOrder.executor": "Run",
+    "TestNG.AddToCartProductsAndDeleteTwoTest.addProductToCartAndDeleteOne.executor": "Run",
     "TestNG.ChangeLanguageTest.changeLanguage.executor": "Debug",
     "TestNG.ChangePasswordTest.changePassword.executor": "Run",
     "TestNG.ChangePersonalInformationTest.changePersonalInformation.executor": "Run",
-    "TestNG.CheckThePriceBeforeOrderTest.checkThePriceBeforeOrder.executor": "Run",
+    "TestNG.CheckThePriceBeforeOrderTest.checkThePriceBeforeOrder.executor": "Debug",
     "TestNG.CompleteTheOrderTest.completeTheOrder.executor": "Run",
     "TestNG.DeleteProductFromFavoriteTest.deleteProductFromFavorite.executor": "Run",
     "TestNG.DisconnectTest.disconnect.executor": "Debug",
@@ -83,7 +86,7 @@
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.AddMoreProductsToCartAndDeleteAllTest.addMoreProductsToCartAndDeleteAll">
+  <component name="RunManager" selected="TestNG.AddToCartProductsAndDeleteTwoTest.addToCartProductsAndDeleteTwo">
     <configuration name="AddMoreInformationToOrderTest.addMoreInformationToOrder" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="taptasty" />
       <shortenClasspath name="NONE" />
@@ -142,7 +145,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddTipToOrderTest.addTipOrder" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddToCartProductsAndDeleteTwoTest.addProductToCartAndDeleteOne" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="taptasty" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -154,8 +157,37 @@
       </extension>
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="taptastytestmenu" />
-      <option name="MAIN_CLASS_NAME" value="taptastytestmenu.AddTipToOrderTest" />
-      <option name="METHOD_NAME" value="addTipOrder" />
+      <option name="MAIN_CLASS_NAME" value="taptastytestmenu.AddToCartProductsAndDeleteTwoTest" />
+      <option name="METHOD_NAME" value="addProductToCartAndDeleteOne" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddToCartProductsAndDeleteTwoTest.addToCartProductsAndDeleteTwo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="taptasty" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="taptastytestmenu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="taptastytestmenu" />
+      <option name="MAIN_CLASS_NAME" value="taptastytestmenu.AddToCartProductsAndDeleteTwoTest" />
+      <option name="METHOD_NAME" value="addToCartProductsAndDeleteTwo" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
@@ -200,35 +232,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteProductFromFavoriteTest.deleteProductFromFavorite" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="taptasty" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="taptastytestmenu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="taptastytests" />
-      <option name="MAIN_CLASS_NAME" value="taptastytestmenu.DeleteProductFromFavoriteTest" />
-      <option name="METHOD_NAME" value="deleteProductFromFavorite" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="true" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG">
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -252,11 +255,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AddToCartProductsAndDeleteTwoTest.addToCartProductsAndDeleteTwo" />
+        <item itemvalue="TestNG.AddToCartProductsAndDeleteTwoTest.addProductToCartAndDeleteOne" />
+        <item itemvalue="TestNG.CheckThePriceBeforeOrderTest.checkThePriceBeforeOrder" />
         <item itemvalue="TestNG.AddMoreProductsToCartAndDeleteAllTest.addMoreProductsToCartAndDeleteAll" />
         <item itemvalue="TestNG.AddMoreInformationToOrderTest.addMoreInformationToOrder" />
-        <item itemvalue="TestNG.CheckThePriceBeforeOrderTest.checkThePriceBeforeOrder" />
-        <item itemvalue="TestNG.AddTipToOrderTest.addTipOrder" />
-        <item itemvalue="TestNG.DeleteProductFromFavoriteTest.deleteProductFromFavorite" />
       </list>
     </recent_temporary>
   </component>
@@ -318,24 +321,9 @@
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/taptastymenu/AddMoreProductsToCartAndDeleteAll.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/taptastymenu/AddMoreProductsToCartAndDeleteAll.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/taptastymenu/AddMoreProductsToCartAndDeleteAll.java</url>
-          <line>60</line>
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/taptastymenu/AddMoreProductsToCartAndDeleteAll.java</url>
-          <line>62</line>
-          <option name="timeStamp" value="44" />
+          <url>file://$PROJECT_DIR$/src/main/java/taptastymenu/CheckThePriceBeforeOrder.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

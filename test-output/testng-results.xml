@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-21T21:10:16 EET" name="Default Suite" finished-at="2024-03-21T21:10:36 EET" duration-ms="19532">
+  <suite started-at="2024-03-22T16:42:20 EET" name="Default Suite" finished-at="2024-03-22T16:42:39 EET" duration-ms="19714">
     <groups>
     </groups>
-    <test started-at="2024-03-21T21:10:16 EET" name="TapTasty" finished-at="2024-03-21T21:10:36 EET" duration-ms="19532">
-      <class name="taptastytestmenu.AddMoreProductsToCartAndDeleteAllTest">
-        <test-method is-config="true" signature="beforeMethode()[pri:0, instance:taptastytestmenu.AddMoreProductsToCartAndDeleteAllTest@49cb9cb5]" started-at="2024-03-21T21:10:16 EET" name="beforeMethode" finished-at="2024-03-21T21:10:17 EET" duration-ms="1176" status="PASS">
+    <test started-at="2024-03-22T16:42:20 EET" name="TapTasty" finished-at="2024-03-22T16:42:39 EET" duration-ms="19714">
+      <class name="taptastytestmenu.AddToCartProductsAndDeleteTwoTest">
+        <test-method is-config="true" signature="beforeMethode()[pri:0, instance:taptastytestmenu.AddToCartProductsAndDeleteTwoTest@331acdad]" started-at="2024-03-22T16:42:20 EET" name="beforeMethode" finished-at="2024-03-22T16:42:21 EET" duration-ms="1192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethode -->
-        <test-method signature="addMoreProductsToCartAndDeleteAll()[pri:0, instance:taptastytestmenu.AddMoreProductsToCartAndDeleteAllTest@49cb9cb5]" started-at="2024-03-21T21:10:17 EET" name="addMoreProductsToCartAndDeleteAll" finished-at="2024-03-21T21:10:35 EET" duration-ms="18228" status="PASS">
+        <test-method signature="addToCartProductsAndDeleteTwo()[pri:0, instance:taptastytestmenu.AddToCartProductsAndDeleteTwoTest@331acdad]" started-at="2024-03-22T16:42:21 EET" name="addToCartProductsAndDeleteTwo" finished-at="2024-03-22T16:42:39 EET" duration-ms="18416" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addMoreProductsToCartAndDeleteAll -->
-        <test-method is-config="true" signature="afterMethode()[pri:0, instance:taptastytestmenu.AddMoreProductsToCartAndDeleteAllTest@49cb9cb5]" started-at="2024-03-21T21:10:35 EET" name="afterMethode" finished-at="2024-03-21T21:10:36 EET" duration-ms="107" status="PASS">
+        </test-method> <!-- addToCartProductsAndDeleteTwo -->
+        <test-method is-config="true" signature="afterMethode()[pri:0, instance:taptastytestmenu.AddToCartProductsAndDeleteTwoTest@331acdad]" started-at="2024-03-22T16:42:39 EET" name="afterMethode" finished-at="2024-03-22T16:42:39 EET" duration-ms="86" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethode -->
-      </class> <!-- taptastytestmenu.AddMoreProductsToCartAndDeleteAllTest -->
+      </class> <!-- taptastytestmenu.AddToCartProductsAndDeleteTwoTest -->
     </test> <!-- TapTasty -->
   </suite> <!-- Default Suite -->
 </testng-results>
