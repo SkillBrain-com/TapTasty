@@ -40,7 +40,7 @@ public class AddAProductToCart {
         driver.findElement(checkCartButton).click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(productName));
         String textProduct = driver.findElement(productName).getText();
-        Assert.assertEquals(textProduct,"DOUBLE CHEESE CHICKEN MENU");
+        Assert.assertEquals(textProduct,"DUBLU PUI CHEESE");
 
     }
 }

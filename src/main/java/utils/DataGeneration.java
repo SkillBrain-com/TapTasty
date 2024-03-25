@@ -19,6 +19,8 @@ public class DataGeneration {
     public String nrAddress;
     public String city;
     public String county;
+    public String country;
+
 
 
 
@@ -40,6 +42,8 @@ public class DataGeneration {
         nrAddress = faker.address().buildingNumber();
         city = faker.address().city();
         county = faker.address().state();
+        country = faker.address().country();
+
 
 
 

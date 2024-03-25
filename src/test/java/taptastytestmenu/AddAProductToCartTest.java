@@ -6,7 +6,7 @@ import taptasty.LoginPage;
 import taptastymenu.AddAProductToCart;
 import utils.BasePage;
 
-//Add a product to cart
+//Add a product to cart from Burgher
 public class AddAProductToCartTest extends BasePage {
 
     @Test
