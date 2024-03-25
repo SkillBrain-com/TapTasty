@@ -1,38 +1,15 @@
-16:53:13.605 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-16:53:13.607 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-16:53:13.607 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-16:53:13.607 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-16:53:13.613 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+15:42:20.591 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE DeleteTipAfterAddedTipTest.deleteTipOrder()[pri:0, instance:taptastytestmenu.DeleteTipAfterAddedTipTest@63798ca7] 13823896
+15:42:20.595 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+15:42:20.595 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+15:42:20.595 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+15:42:20.595 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+15:42:20.599 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
 
-16:53:14.829 [main] INFO  utils.BasePage - **** starting TC_ AddToCartProductsAndDeleteTwo  *****
-16:53:14.829 [main] DEBUG utils.BasePage - application logs started......
-16:53:15.805 [main] INFO  utils.BasePage - Log in
-16:53:16.858 [main] INFO  utils.BasePage - Add 3 items to cart and delete two items, check if we still have 1 product to cart
-16:53:33.604 [main] DEBUG utils.BasePage - application logs end.......
-16:53:33.604 [main] INFO  utils.BasePage - **** finished TC_ AddToCartProductsAndDeleteTwo *****
-16:55:33.868 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml"
-16:55:33.995 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.beforeMethode()[pri:0, instance:null] 1881771703
-16:55:33.995 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-16:55:33.997 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-16:55:33.997 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-16:55:33.997 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-16:55:33.998 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.afterMethode()[pri:0, instance:null] 145901492
-16:55:33.998 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-16:55:33.998 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-16:55:33.998 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-16:55:33.998 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-16:55:34.003 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AddToCartProductsAndDeleteTwoTest.addToCartProductsAndDeleteTwo()[pri:0, instance:taptastytestmenu.AddToCartProductsAndDeleteTwoTest@55322aab] 1337275583
-16:55:34.003 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-16:55:34.003 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-16:55:34.003 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-16:55:34.003 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-16:55:34.008 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
-
-16:55:35.229 [main] INFO  utils.BasePage - **** starting TC_ AddToCartProductsAndDeleteTwo  *****
-16:55:35.230 [main] DEBUG utils.BasePage - application logs started......
-16:55:36.401 [main] INFO  utils.BasePage - Log in
-16:55:37.497 [main] INFO  utils.BasePage - Add 3 items to cart and delete two items, check if we still have 1 product to cart
-16:55:54.000 [main] DEBUG utils.BasePage - application logs end.......
-16:55:54.000 [main] INFO  utils.BasePage - **** finished TC_ AddToCartProductsAndDeleteTwo *****
+15:42:21.823 [main] INFO  utils.BasePage - **** starting TC_DeleteTipAfterAddedTip  *****
+15:42:21.824 [main] DEBUG utils.BasePage - application logs started......
+15:42:22.861 [main] INFO  utils.BasePage - Log in
+15:42:23.958 [main] INFO  utils.BasePage - Add a tip to order
+15:42:33.299 [main] INFO  utils.BasePage - Delete the tip
+15:42:33.831 [main] DEBUG utils.BasePage - application logs end.......
+15:42:33.831 [main] INFO  utils.BasePage - **** finished TC_DeleteTipAfterAddedTip *****

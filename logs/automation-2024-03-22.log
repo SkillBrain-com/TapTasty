@@ -1,54 +1,50 @@
-16:39:34.946 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-16:39:34.949 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-16:39:34.949 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-16:39:34.953 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AddToCartProductsAndDeleteTwoTest.addProductToCartAndDeleteOne()[pri:0, instance:taptastytestmenu.AddToCartProductsAndDeleteTwoTest@46944ca9] 1567941280
-16:39:34.953 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-16:39:34.953 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-16:39:34.953 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-16:39:34.954 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-16:39:34.959 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+17:18:50.248 [main] INFO  utils.BasePage - **** starting TC_ AddToCartProductsAndDeleteTwo  *****
+17:18:50.250 [main] DEBUG utils.BasePage - application logs started......
+17:18:51.960 [main] INFO  utils.BasePage - Log in
+17:18:52.746 [main] ERROR utils.BasePage - test failed..
+17:18:52.746 [main] DEBUG utils.BasePage - debug logs....
+17:18:52.852 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AddToCartProductsAndDeleteTwoTest.addToCartProductsAndDeleteTwo()[pri:0, instance:taptastytestmenu.AddToCartProductsAndDeleteTwoTest@59b38691] 1412862117
+17:18:52.853 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+17:18:52.853 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+17:18:52.853 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+17:18:52.853 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+17:18:59.354 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml"
+17:18:59.499 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.beforeMethode()[pri:0, instance:null] 1881771703
+17:18:59.500 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+17:18:59.503 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+17:18:59.503 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+17:18:59.503 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+17:18:59.504 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.afterMethode()[pri:0, instance:null] 145901492
+17:18:59.504 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+17:18:59.504 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+17:18:59.504 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+17:18:59.504 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+17:18:59.509 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AddToCartProductsAndDeleteTwoTest.addToCartProductsAndDeleteTwo()[pri:0, instance:taptastytestmenu.AddToCartProductsAndDeleteTwoTest@2b4c1d96] 634333098
+17:18:59.509 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+17:18:59.509 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+17:18:59.509 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+17:18:59.509 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+17:18:59.516 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
 
-16:39:36.129 [main] INFO  utils.BasePage - **** starting TC_ AddProductsToCartAndDeleteOne  *****
-16:39:36.129 [main] DEBUG utils.BasePage - application logs started......
-16:39:37.259 [main] INFO  utils.BasePage - Log in
-16:39:38.326 [main] INFO  utils.BasePage - Add 3 items to cart and delete one and check if we have 2 products in cart after delete one 
-16:39:54.689 [main] DEBUG utils.BasePage - application logs end.......
-16:39:54.689 [main] INFO  utils.BasePage - **** finished TC_ AddProductsToCartAndDeleteOne *****
-16:42:19.891 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml"
-16:42:20.026 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.beforeMethode()[pri:0, instance:null] 1881771703
-16:42:20.026 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-16:42:20.028 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-16:42:20.028 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-16:42:20.028 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-16:42:20.029 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.afterMethode()[pri:0, instance:null] 145901492
-16:42:20.029 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-16:42:20.029 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-16:42:20.029 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-16:42:20.029 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-16:42:20.033 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AddToCartProductsAndDeleteTwoTest.addToCartProductsAndDeleteTwo()[pri:0, instance:taptastytestmenu.AddToCartProductsAndDeleteTwoTest@331acdad] 765319105
-16:42:20.033 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-16:42:20.033 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-16:42:20.033 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-16:42:20.033 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-16:42:20.039 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
-
-16:42:21.252 [main] INFO  utils.BasePage - **** starting TC_ AddToCartProductsAndDeleteTwo  *****
-16:42:21.252 [main] DEBUG utils.BasePage - application logs started......
-16:42:22.273 [main] INFO  utils.BasePage - Log in
-16:42:23.353 [main] INFO  utils.BasePage - Add 3 items to cart and delete two items, check if we still have 1 product to cart
-16:42:39.666 [main] DEBUG utils.BasePage - application logs end.......
-16:42:39.667 [main] INFO  utils.BasePage - **** finished TC_ AddToCartProductsAndDeleteTwo *****
-16:53:13.469 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml"
-16:53:13.598 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.beforeMethode()[pri:0, instance:null] 1881771703
-16:53:13.598 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-16:53:13.600 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-16:53:13.600 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-16:53:13.600 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-16:53:13.601 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.afterMethode()[pri:0, instance:null] 145901492
-16:53:13.601 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-16:53:13.601 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-16:53:13.601 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-16:53:13.601 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-16:53:13.604 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AddToCartProductsAndDeleteTwoTest.addToCartProductsAndDeleteTwo()[pri:0, instance:taptastytestmenu.AddToCartProductsAndDeleteTwoTest@63798ca7] 1576834747
+17:19:00.676 [main] INFO  utils.BasePage - **** starting TC_ AddToCartProductsAndDeleteTwo  *****
+17:19:00.676 [main] DEBUG utils.BasePage - application logs started......
+17:19:01.673 [main] INFO  utils.BasePage - Log in
+17:19:02.793 [main] INFO  utils.BasePage - Add 3 items to cart and delete two items, check if we still have 1 product to cart
+17:19:19.608 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AddToCartProductsAndDeleteTwoTest.addToCartProductsAndDeleteTwo()[pri:0, instance:taptastytestmenu.AddToCartProductsAndDeleteTwoTest@2b4c1d96] 634333098
+17:19:19.608 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+17:19:19.608 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+17:19:19.608 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+17:19:19.608 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+17:19:42.201 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml"
+17:19:42.329 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.beforeMethode()[pri:0, instance:null] 1881771703
+17:19:42.329 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+17:19:42.331 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+17:19:42.331 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+17:19:42.331 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+17:19:42.332 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.afterMethode()[pri:0, instance:null] 145901492
+17:19:42.332 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+17:19:42.332 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+17:19:42.332 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+17:19:42.332 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+17:19:42.336 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AddToCartProductsAndDeleteTwoTest.addToCartProductsAndDeleteTwo()[pri:0, instance:taptastytestmenu.AddToCartProductsAndDeleteTwoTest@17aad511] 304996133

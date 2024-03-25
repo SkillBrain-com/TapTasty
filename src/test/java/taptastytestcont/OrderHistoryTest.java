@@ -6,7 +6,7 @@ import taptasty.LoginPage;
 import taptastycont.OrderHistory;
 import utils.BasePage;
 
-//Click order history and go back to account
+//Click order history, check first order and go back to account
 public class OrderHistoryTest extends BasePage {
 
     @Test
