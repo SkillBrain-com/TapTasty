@@ -30,11 +30,11 @@ public class TC_001_CheckFavorite extends BaseClass{
 			Thread.sleep(2000);
 
 			regpage.clickmenu();
-			Thread.sleep(6000);
+
 			regpage.aleggustari();
-			Thread.sleep(6000);
+
 			regpage.cartofi();
-			Thread.sleep(6000);
+
 
 		}
 		catch(Exception e)

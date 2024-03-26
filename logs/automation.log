@@ -1,12 +1,48 @@
-15:02:26.513 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-15:02:26.518 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-15:02:26.518 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-15:02:26.522 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+21:45:49.886 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+21:45:49.892 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+21:45:49.893 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+21:45:49.893 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+21:45:49.895 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.tearDown()[pri:0, instance:null] 829687191
+21:45:49.895 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+21:45:49.895 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+21:45:49.895 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+21:45:49.895 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+21:45:49.901 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TC_01_Logout.logout()[pri:0, instance:testCases.Cont.TC_01_Logout@17aad511] 463273173
+21:45:49.901 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+21:45:49.901 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+21:45:49.901 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+21:45:49.901 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+21:45:49.906 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\Dante\AppData\Local\JetBrains\IdeaIC2023.2\temp-testng-customsuite.xml
 
-15:02:33.819 [main] INFO  testCases.TC_001_CheckFavorite - **** starting TC_001_CheckFavorite  *****
-15:02:33.820 [main] DEBUG testCases.TC_001_CheckFavorite - application logs started......
-15:02:33.888 [main] INFO  testCases.TC_001_CheckFavorite - Clicked on Login button
-15:02:33.888 [main] INFO  testCases.TC_001_CheckFavorite - Going to login page
-15:02:53.467 [main] ERROR testCases.TC_001_CheckFavorite - test failed..
-15:02:53.467 [main] DEBUG testCases.TC_001_CheckFavorite - debug logs....
+21:45:57.108 [main] INFO  testCases.Cont.TC_01_Logout - **** starting TC_02_Logout ****
+21:45:57.108 [main] DEBUG testCases.Cont.TC_01_Logout - application logs started.....
+21:45:57.265 [main] INFO  testCases.Cont.TC_01_Logout - Clicked on Login button
+21:45:57.266 [main] INFO  testCases.Cont.TC_01_Logout - Going to login page
+21:46:04.129 [main] DEBUG testCases.Cont.TC_01_Logout - Application logs end.......
+21:46:04.129 [main] INFO  testCases.Cont.TC_01_Logout - **** finished TC_02_Logout ****
+21:46:37.769 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Dante\AppData\Local\JetBrains\IdeaIC2023.2\temp-testng-customsuite.xml"
+21:46:37.926 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.setup()[pri:0, instance:null] -1422203584
+21:46:37.927 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+21:46:37.928 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+21:46:37.928 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+21:46:37.928 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+21:46:37.930 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.tearDown()[pri:0, instance:null] 829687191
+21:46:37.930 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+21:46:37.930 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+21:46:37.930 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+21:46:37.930 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+21:46:37.934 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TC_01_Logout.logout()[pri:0, instance:testCases.Cont.TC_01_Logout@6aa3a905] 1855312073
+21:46:37.934 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+21:46:37.935 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+21:46:37.935 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+21:46:37.935 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+21:46:37.940 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Dante\AppData\Local\JetBrains\IdeaIC2023.2\temp-testng-customsuite.xml
+
+21:46:45.051 [main] INFO  testCases.Cont.TC_01_Logout - **** starting TC_02_Logout ****
+21:46:45.052 [main] DEBUG testCases.Cont.TC_01_Logout - application logs started.....
+21:46:45.125 [main] INFO  testCases.Cont.TC_01_Logout - Clicked on Login button
+21:46:45.125 [main] INFO  testCases.Cont.TC_01_Logout - Going to login page
+21:46:55.994 [main] DEBUG testCases.Cont.TC_01_Logout - Application logs end.......
+21:46:55.994 [main] INFO  testCases.Cont.TC_01_Logout - **** finished TC_02_Logout ****
