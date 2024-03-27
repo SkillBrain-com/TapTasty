@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c39a5787-d4fb-4065-8c64-017357ed24a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/taptastymenu/OrderForACompany.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/taptastytestmenu/OrderForACompanyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taptastycont/DeleteAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taptastycont/LoginPageForDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taptastyfooter/LinkToIOSApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/taptastytestcont/DeleteAccountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/taptastytestfooter/LinkToIOSAppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/automation-2024-03-25.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation-2024-03-25.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/taptastymenu/AddAProductToCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taptastymenu/AddAProductToCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/DataGeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/DataGeneration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/taptastytestmenu/AddAProductToCartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/taptastytestmenu/AddAProductToCartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/taptasty/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taptasty/RegisterPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" afterDir="false" />
@@ -71,12 +71,14 @@
     "TestNG.ChangePersonalInformationTest.changePersonalInformation.executor": "Run",
     "TestNG.CheckThePriceBeforeOrderTest.checkThePriceBeforeOrder.executor": "Debug",
     "TestNG.CompleteTheOrderTest.completeTheOrder.executor": "Run",
+    "TestNG.DeleteAccountTest.deleteAccount.executor": "Run",
     "TestNG.DeleteProductFromFavoriteTest.deleteProductFromFavorite.executor": "Run",
     "TestNG.DeleteTipAfterAddedTipTest.deleteTipOrder.executor": "Run",
     "TestNG.DisconnectTest.disconnect.executor": "Debug",
     "TestNG.FavoriteOrdersMenuTest.favoriteOrdersMenu.executor": "Run",
     "TestNG.FavoriteOrdersTest.myCards.executor": "Run",
     "TestNG.FirstProductToCartTest.firstProductTest.executor": "Run",
+    "TestNG.LinkToIOSAppTest.linkToIOSApp.executor": "Run",
     "TestNG.LoginPageTest.loginPage.executor": "Run",
     "TestNG.MyCardsTest.myCards.executor": "Run",
     "TestNG.NotificationByEmailOnOffTest.notificationByEmail.executor": "Debug",
@@ -91,21 +93,21 @@
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.OrderForACompanyTest.orderForACompany">
-    <configuration name="AddToCartProductsAndDeleteTwoTest.addToCartProductsAndDeleteTwo" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.LinkToIOSAppTest.linkToIOSApp">
+    <configuration name="DeleteAccountTest.deleteAccount" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="taptasty" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="taptastytestmenu.*" />
+          <option name="PATTERN" value="taptastytestcont.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="taptastytestmenu" />
-      <option name="MAIN_CLASS_NAME" value="taptastytestmenu.AddToCartProductsAndDeleteTwoTest" />
-      <option name="METHOD_NAME" value="addToCartProductsAndDeleteTwo" />
+      <option name="PACKAGE_NAME" value="taptastytestcont" />
+      <option name="MAIN_CLASS_NAME" value="taptastytestcont.DeleteAccountTest" />
+      <option name="METHOD_NAME" value="deleteAccount" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
@@ -150,20 +152,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FavoriteOrdersTest.myCards" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkToIOSAppTest.linkToIOSApp" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="taptasty" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="taptastytestcont.*" />
+          <option name="PATTERN" value="taptastytestfooter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="taptastytestcont" />
-      <option name="MAIN_CLASS_NAME" value="taptastytestcont.FavoriteOrdersTest" />
-      <option name="METHOD_NAME" value="myCards" />
+      <option name="PACKAGE_NAME" value="taptastytestfooter" />
+      <option name="MAIN_CLASS_NAME" value="taptastytestfooter.LinkToIOSAppTest" />
+      <option name="METHOD_NAME" value="linkToIOSApp" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
@@ -260,11 +262,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LinkToIOSAppTest.linkToIOSApp" />
+        <item itemvalue="TestNG.DeleteAccountTest.deleteAccount" />
         <item itemvalue="TestNG.OrderForACompanyTest.orderForACompany" />
         <item itemvalue="TestNG.DeleteTipAfterAddedTipTest.deleteTipOrder" />
         <item itemvalue="TestNG.OrderHistoryTest.orderHistory" />
-        <item itemvalue="TestNG.FavoriteOrdersTest.myCards" />
-        <item itemvalue="TestNG.AddToCartProductsAndDeleteTwoTest.addToCartProductsAndDeleteTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -311,11 +313,6 @@
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/taptastycont/ChangeLanguage.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/taptastycont/NotificationByEmailOnOff.java</url>
           <line>29</line>
           <option name="timeStamp" value="19" />
@@ -331,24 +328,24 @@
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/taptastymenu/DeleteTipAfterAddedTip.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="27" />
+          <url>file://$PROJECT_DIR$/src/main/java/taptastycont/DeleteAccount.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/taptastymenu/DeleteTipAfterAddedTip.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="28" />
+          <url>file://$PROJECT_DIR$/src/main/java/taptastycont/DeleteAccount.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/taptastymenu/DeleteTipAfterAddedTip.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/taptastyfooter/LinkToIOSApp.java</url>
           <line>28</line>
-          <option name="timeStamp" value="29" />
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/taptastymenu/DeleteTipAfterAddedTip.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="30" />
+          <url>file://$PROJECT_DIR$/src/main/java/taptastyfooter/LinkToIOSApp.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

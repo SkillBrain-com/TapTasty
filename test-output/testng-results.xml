@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-25T16:30:37 EET" name="Default Suite" finished-at="2024-03-25T16:30:50 EET" duration-ms="12921">
+  <suite started-at="2024-03-27T15:58:38 EET" name="Default Suite" finished-at="2024-03-27T15:58:42 EET" duration-ms="4412">
     <groups>
     </groups>
-    <test started-at="2024-03-25T16:30:37 EET" name="TapTasty" finished-at="2024-03-25T16:30:50 EET" duration-ms="12921">
-      <class name="taptastytestmenu.OrderForACompanyTest">
-        <test-method is-config="true" signature="beforeMethode()[pri:0, instance:taptastytestmenu.OrderForACompanyTest@17aad511]" started-at="2024-03-25T16:30:37 EET" name="beforeMethode" finished-at="2024-03-25T16:30:39 EET" duration-ms="1268" status="PASS">
+    <test started-at="2024-03-27T15:58:38 EET" name="TapTasty" finished-at="2024-03-27T15:58:42 EET" duration-ms="4412">
+      <class name="taptastytestfooter.LinkToIOSAppTest">
+        <test-method is-config="true" signature="beforeMethode()[pri:0, instance:taptastytestfooter.LinkToIOSAppTest@2e2ff723]" started-at="2024-03-27T15:58:38 EET" name="beforeMethode" finished-at="2024-03-27T15:58:39 EET" duration-ms="1193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethode -->
-        <test-method signature="orderForACompany()[pri:0, instance:taptastytestmenu.OrderForACompanyTest@17aad511]" started-at="2024-03-25T16:30:39 EET" name="orderForACompany" finished-at="2024-03-25T16:30:50 EET" duration-ms="11548" status="PASS">
+        <test-method signature="linkToIOSApp()[pri:0, instance:taptastytestfooter.LinkToIOSAppTest@2e2ff723]" started-at="2024-03-27T15:58:39 EET" name="linkToIOSApp" finished-at="2024-03-27T15:58:42 EET" duration-ms="3117" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- orderForACompany -->
-        <test-method is-config="true" signature="afterMethode()[pri:0, instance:taptastytestmenu.OrderForACompanyTest@17aad511]" started-at="2024-03-25T16:30:50 EET" name="afterMethode" finished-at="2024-03-25T16:30:50 EET" duration-ms="83" status="PASS">
+        </test-method> <!-- linkToIOSApp -->
+        <test-method is-config="true" signature="afterMethode()[pri:0, instance:taptastytestfooter.LinkToIOSAppTest@2e2ff723]" started-at="2024-03-27T15:58:42 EET" name="afterMethode" finished-at="2024-03-27T15:58:42 EET" duration-ms="82" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethode -->
-      </class> <!-- taptastytestmenu.OrderForACompanyTest -->
+      </class> <!-- taptastytestfooter.LinkToIOSAppTest -->
     </test> <!-- TapTasty -->
   </suite> <!-- Default Suite -->
 </testng-results>

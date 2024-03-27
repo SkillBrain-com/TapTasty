@@ -17,6 +17,7 @@ public class RegisterPage {
     By passwordUser = By.xpath("(//input[@type = \"password\"])[1]");
     By passwordConfirmUser = By.xpath("(//input[@type = \"password\"])[2]");
     By termenConditiiButton = By.xpath("(//label/i[@class=\"icon icon-checkbox\"])[1]");
+    By over18Button = By.xpath("(//label/i[@class=\"icon icon-checkbox\"])[2]");
     By createAccountButton = By.xpath("//div[@class='toolbar-inner']/a[@class='checkbox w100 text-uppercase button']");
     By okButton = By.cssSelector(".dialog-button.dialog-button-bold");
 
@@ -45,6 +46,7 @@ public class RegisterPage {
         driver.findElement(passwordUser).sendKeys(password);
         driver.findElement(passwordConfirmUser).sendKeys(passwordConfirm);
         driver.findElement(termenConditiiButton).click();
+        driver.findElement(over18Button).click();
         driver.findElement(createAccountButton).click();
         wait.until(ExpectedConditions.elementToBeClickable(okButton));
         driver.findElement(okButton).click();
