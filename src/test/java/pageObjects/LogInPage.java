@@ -1,8 +1,11 @@
 package pageObjects;
 
+import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+
+import java.util.concurrent.Callable;
 
 public class LogInPage extends BasePage {
 
@@ -153,10 +156,131 @@ public class LogInPage extends BasePage {
     }
 
     @FindBy(xpath = "//*[@id=\"main-view\"]/div/div[3]/div[1]/div[2]/div[1]/ul/li[3]/a/div/div[2]/div")
-    WebElement setOrderHistory;
-    public void setSetOrderHistory(){
-        setOrderHistory.click();
+    WebElement OrderHistory;
 
+    public void SetOrderHistory() {
+        OrderHistory.click();
+
+
+    }
+
+    @FindBy(xpath = "//*[@id=\"main-view\"]/div/div[3]/div[1]/div[2]/div[1]/ul/li[4]/a/div/div[2]/div")
+    WebElement CardsPaymentMetod;
+
+    public void SetCardsPaymentMetod() {
+        CardsPaymentMetod.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"main-view\"]/div/div[3]/div[1]/div[2]/div[1]/ul/li[5]/a/div/div[2]/div")
+    WebElement FavoriteOrder;
+
+    public void SetFavoriteOrder() {
+        FavoriteOrder.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"main-view\"]/div/div[2]/div/ul/li/a/div/div/div[1]")
+    WebElement SelectFavoriteOrder;
+
+    public void SetSelectFavoriteOrder() {
+        SelectFavoriteOrder.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"main-view\"]/div/div[3]/div[1]/div[2]/div[1]/ul/li[6]/a/div/div[2]/div")
+    WebElement ChangePassword;
+
+    public void SetChangePassword() {
+        ChangePassword.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"validateChhangePass\"]/ul/li[1]/div/div/li/div/div/div/input")
+    WebElement ClickChangePassword1;
+
+    public void SetClickChangePassword1() {
+        ClickChangePassword1.sendKeys("Moscraciun1");
+    }
+
+    @FindBy(xpath = "//*[@id=\"validateChhangePass\"]/ul/li[2]/div/div/li/div/div/div/input")
+    WebElement ClickChangePassword2;
+
+    public void SetClickPassword2() {
+        ClickChangePassword2.sendKeys("Moscraciun1");
+    }
+
+    @FindBy(xpath = "//*[@id=\"validateChhangePass\"]/ul/li[1]/div/div/span/i")
+    WebElement SeePassword;
+
+    public void SetSeePassword() {
+        SeePassword.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"main-view\"]/div/div[2]/div/div/div/a")
+    WebElement ConfirmNewPassword;
+
+    public void SetConfirmNewPassword() {
+        ConfirmNewPassword.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"main-view\"]/div/div[3]/div[1]/div[2]/div[1]/ul/li[7]/a/div/div[2]/div")
+    WebElement Promotions;
+
+    public void SetPromotions() {
+        Promotions.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"main-view\"]/div/div[3]/div[1]/div[2]/div[1]/ul/li[8]/a/div/div[2]/div[1]")
+    WebElement SelectLanguage;
+
+    public void SetSelectLanguage() {
+        SelectLanguage.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"framework7-root\"]/div[11]/div[2]/div/div/ul/li[2]/label/div")
+    WebElement SelectEnglishLanguage;
+
+    public void SetSelectEnglishLanguage() {
+        SelectEnglishLanguage.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"main-view\"]/div/div[3]/div[1]/div[2]/div[1]/ul/li[9]/a/div/div[2]/div")
+    WebElement Newsletter;
+
+    public void SetNewsletter() {
+        Newsletter.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"toggleEmail\"]/span")
+    WebElement SelectEmailNotifications;
+
+    public void SetSelectEmailNotifications() {
+        SelectEmailNotifications.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"main-view\"]/div/div[3]/div[1]/div[2]/div[2]/ul/li[1]/a/div/div[2]/div")
+    WebElement SelectContactUs;
+
+    public void SetSelectContactUs() {
+        SelectContactUs.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"main-view\"]/div/div[3]/div[1]/div[2]/div[2]/ul/li[2]/a/div/div[2]/div")
+    WebElement SelectFeedBack;
+
+    public void SetSelectFeedBack() {
+        SelectFeedBack.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"main-view\"]/div/div[2]/div/div[2]/ul/li/a/div/div")
+    WebElement SelectChooseLocation;
+
+    public void SetSelectChooseLocation() {
+        SelectChooseLocation.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"framework7-root\"]/div[11]/div/div/div[2]/div/ul/li[1]/label/div/div")
+    WebElement ChooseTapTastyGastoPanDelivery;
+
+    public void SetChooseTapTastyGastoPanDelivery() {
+        ChooseTapTastyGastoPanDelivery.click();
 
     }
 
@@ -168,7 +292,117 @@ public class LogInPage extends BasePage {
 
 
 
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

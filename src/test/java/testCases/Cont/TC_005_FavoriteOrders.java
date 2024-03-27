@@ -2,13 +2,13 @@ package testCases.Cont;
 
 import org.testng.annotations.Test;
 import pageObjects.HomePage;
-import  pageObjects.LogInPage;
+import pageObjects.LogInPage;
 import testBase.BaseClass;
 
-public class TC_002_AddAddressManually extends BaseClass{
+public class TC_005_FavoriteOrders extends BaseClass {
     @Test
-    public void addAddressManually(){
-        logger.info(" starting TC_002_AddAddressManually *");
+    public void favoriteOrders(){
+        logger.info(" starting TC_005_FavoriteOrders *");
         logger.debug("application logs started......");
         try {
             HomePage hp = new HomePage(driver);
@@ -23,19 +23,9 @@ public class TC_002_AddAddressManually extends BaseClass{
 
             regpage.clickLogin();
             Thread.sleep(2000);
-
             regpage.contInformation();
-            //Thread.sleep(2000);
-            regpage.setMyAddress();
-            regpage.setAddAddressManually();
-            regpage.setAddAddress();
-            regpage.setStreetName();
-            regpage.setNumberStreet();
-            regpage.setFullAddress();
-            regpage.setTown();
-            regpage.setAddTown();
-            regpage.setCompleted();
-
+            regpage.SetFavoriteOrder();
+            regpage.SetSelectFavoriteOrder();
 
 
 
@@ -54,15 +44,16 @@ public class TC_002_AddAddressManually extends BaseClass{
         }
 
         logger.debug("application logs end.......");
-        logger.info(" finished TC_002_AddAddressManually *");
+        logger.info(" finished TC_005_FavoriteOrders *");
 
 
     }
 
 
 
+
+
+
+
+
 }
-
-
-
-

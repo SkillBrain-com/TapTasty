@@ -19,7 +19,7 @@ public class TC_001_ModifyPersonalInformation  extends BaseClass {
             LogInPage regpage = new LogInPage(driver);
 
             regpage.setEmail("abistriceanu32@gmail.com");
-            regpage.password("Moscraciun1");
+            regpage.password("Acasa1234");
 
             regpage.clickLogin();
             Thread.sleep(2000);
