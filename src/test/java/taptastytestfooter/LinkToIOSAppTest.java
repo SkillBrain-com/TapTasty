@@ -33,7 +33,7 @@ public class LinkToIOSAppTest extends BasePage {
         }
 
         logger.debug("application logs end.......");
-        logger.info("**** finished TC_OrderHistory *****");
+        logger.info("**** finished TC_LinkToIOSApp *****");
     }
 
 }
