@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c39a5787-d4fb-4065-8c64-017357ed24a5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/taptastyfooter/ContactSection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/taptastytestfooter/ContactSectionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/TapTasty.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +65,7 @@
     "TestNG.ChangePersonalInformationTest.changePersonalInformation.executor": "Run",
     "TestNG.CheckThePriceBeforeOrderTest.checkThePriceBeforeOrder.executor": "Debug",
     "TestNG.CompleteTheOrderTest.completeTheOrder.executor": "Run",
+    "TestNG.ContactSectionTest.contactSection.executor": "Run",
     "TestNG.DeleteAccountTest.deleteAccount.executor": "Run",
     "TestNG.DeleteProductFromFavoriteTest.deleteProductFromFavorite.executor": "Run",
     "TestNG.DeleteTipAfterAddedTipTest.deleteTipOrder.executor": "Run",
@@ -64,6 +73,7 @@
     "TestNG.FavoriteOrdersMenuTest.favoriteOrdersMenu.executor": "Run",
     "TestNG.FavoriteOrdersTest.myCards.executor": "Run",
     "TestNG.FirstProductToCartTest.firstProductTest.executor": "Run",
+    "TestNG.LinkToAndroidAppTest.linkToAndroidApp.executor": "Run",
     "TestNG.LinkToIOSAppTest.linkToIOSApp.executor": "Run",
     "TestNG.LoginPageTest.loginPage.executor": "Run",
     "TestNG.MyCardsTest.myCards.executor": "Run",
@@ -79,7 +89,36 @@
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.LinkToAndroidAppTest.linkToAndroidApp">
+  <component name="RunManager" selected="TestNG.ContactSectionTest.contactSection">
+    <configuration name="ContactSectionTest.contactSection" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="taptasty" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="taptastytestfooter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="taptastytestfooter" />
+      <option name="MAIN_CLASS_NAME" value="taptastytestfooter.ContactSectionTest" />
+      <option name="METHOD_NAME" value="contactSection" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DeleteAccountTest.deleteAccount" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="taptasty" />
       <shortenClasspath name="NONE" />
@@ -109,42 +148,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteTipAfterAddedTipTest.deleteTipOrder" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="taptasty" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="taptastytestmenu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="taptastytestmenu" />
-      <option name="MAIN_CLASS_NAME" value="taptastytestmenu.DeleteTipAfterAddedTipTest" />
-      <option name="METHOD_NAME" value="deleteTipOrder" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="true" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LinkToAndroidAppTest.linkToAndroidApp" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="taptasty" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="taptastytestfooter.*" />
+          <option name="PATTERN" value="taptastyfooter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,7 +183,7 @@
       <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="taptastytestfooter.*" />
+          <option name="PATTERN" value="taptastyfooter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -248,11 +258,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ContactSectionTest.contactSection" />
         <item itemvalue="TestNG.LinkToAndroidAppTest.linkToAndroidApp" />
         <item itemvalue="TestNG.LinkToIOSAppTest.linkToIOSApp" />
         <item itemvalue="TestNG.DeleteAccountTest.deleteAccount" />
         <item itemvalue="TestNG.OrderForACompanyTest.orderForACompany" />
-        <item itemvalue="TestNG.DeleteTipAfterAddedTipTest.deleteTipOrder" />
       </list>
     </recent_temporary>
   </component>

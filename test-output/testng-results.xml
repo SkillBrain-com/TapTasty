@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-27T16:20:14 EET" name="Default Suite" finished-at="2024-03-27T16:20:19 EET" duration-ms="4792">
+  <suite started-at="2024-03-27T16:34:01 EET" name="Default Suite" finished-at="2024-03-27T16:34:05 EET" duration-ms="4035">
     <groups>
     </groups>
-    <test started-at="2024-03-27T16:20:14 EET" name="TapTasty" finished-at="2024-03-27T16:20:19 EET" duration-ms="4792">
-      <class name="taptastytestfooter.LinkToAndroidAppTest">
-        <test-method is-config="true" signature="beforeMethode()[pri:0, instance:taptastytestfooter.LinkToAndroidAppTest@59b38691]" started-at="2024-03-27T16:20:14 EET" name="beforeMethode" finished-at="2024-03-27T16:20:16 EET" duration-ms="1409" status="PASS">
+    <test started-at="2024-03-27T16:34:01 EET" name="TapTasty" finished-at="2024-03-27T16:34:05 EET" duration-ms="4035">
+      <class name="taptastytestfooter.ContactSectionTest">
+        <test-method is-config="true" signature="beforeMethode()[pri:0, instance:taptastytestfooter.ContactSectionTest@7502291e]" started-at="2024-03-27T16:34:01 EET" name="beforeMethode" finished-at="2024-03-27T16:34:02 EET" duration-ms="1275" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethode -->
-        <test-method signature="linkToAndroidApp()[pri:0, instance:taptastytestfooter.LinkToAndroidAppTest@59b38691]" started-at="2024-03-27T16:20:16 EET" name="linkToAndroidApp" finished-at="2024-03-27T16:20:19 EET" duration-ms="3288" status="PASS">
+        <test-method signature="contactSection()[pri:0, instance:taptastytestfooter.ContactSectionTest@7502291e]" started-at="2024-03-27T16:34:02 EET" name="contactSection" finished-at="2024-03-27T16:34:05 EET" duration-ms="2667" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- linkToAndroidApp -->
-        <test-method is-config="true" signature="afterMethode()[pri:0, instance:taptastytestfooter.LinkToAndroidAppTest@59b38691]" started-at="2024-03-27T16:20:19 EET" name="afterMethode" finished-at="2024-03-27T16:20:19 EET" duration-ms="75" status="PASS">
+        </test-method> <!-- contactSection -->
+        <test-method is-config="true" signature="afterMethode()[pri:0, instance:taptastytestfooter.ContactSectionTest@7502291e]" started-at="2024-03-27T16:34:05 EET" name="afterMethode" finished-at="2024-03-27T16:34:05 EET" duration-ms="70" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethode -->
-      </class> <!-- taptastytestfooter.LinkToAndroidAppTest -->
+      </class> <!-- taptastytestfooter.ContactSectionTest -->
     </test> <!-- TapTasty -->
   </suite> <!-- Default Suite -->
 </testng-results>

@@ -1,53 +1,55 @@
-15:54:57.253 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-15:54:57.256 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-15:54:57.256 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-15:54:57.257 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.afterMethode()[pri:0, instance:null] 145901492
-15:54:57.257 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-15:54:57.257 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-15:54:57.257 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-15:54:57.257 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-15:54:57.262 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE LinkToIOSAppTest.linkToIOSApp()[pri:0, instance:taptastytestfooter.LinkToIOSAppTest@4ff4357f] 775743299
-15:54:57.262 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-15:54:57.262 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-15:54:57.262 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-15:54:57.262 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-15:54:57.269 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+16:19:15.202 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+16:19:15.204 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+16:19:15.205 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+16:19:15.211 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
 
-15:58:38.006 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml"
-15:58:38.143 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.beforeMethode()[pri:0, instance:null] 1881771703
-15:58:38.143 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-15:58:38.145 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-15:58:38.145 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-15:58:38.145 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-15:58:38.146 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.afterMethode()[pri:0, instance:null] 145901492
-15:58:38.146 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-15:58:38.146 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-15:58:38.146 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-15:58:38.146 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-15:58:38.150 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE LinkToIOSAppTest.linkToIOSApp()[pri:0, instance:taptastytestfooter.LinkToIOSAppTest@2e2ff723] 209234151
-15:58:38.150 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-15:58:38.150 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-15:58:38.150 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-15:58:38.150 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-15:58:38.157 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+16:19:16.406 [main] INFO  utils.BasePage - **** starting TC_ LinkToAndroidApp  *****
+16:19:16.406 [main] DEBUG utils.BasePage - application logs started......
+16:19:17.462 [main] INFO  utils.BasePage - Navigate to website and click IOS App button and verify the link 
+16:19:20.612 [main] DEBUG utils.BasePage - application logs end.......
+16:19:20.613 [main] INFO  utils.BasePage - **** finished TC_ LinkToAndroidApp *****
+16:20:14.797 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml"
+16:20:14.924 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.beforeMethode()[pri:0, instance:null] 1881771703
+16:20:14.924 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+16:20:14.926 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+16:20:14.926 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+16:20:14.926 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+16:20:14.927 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.afterMethode()[pri:0, instance:null] 145901492
+16:20:14.927 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+16:20:14.927 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+16:20:14.927 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+16:20:14.927 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+16:20:14.931 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE LinkToAndroidAppTest.linkToAndroidApp()[pri:0, instance:taptastytestfooter.LinkToAndroidAppTest@59b38691] 1975319773
+16:20:14.931 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+16:20:14.931 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+16:20:14.931 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+16:20:14.931 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+16:20:14.937 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
 
-15:58:39.368 [main] INFO  utils.BasePage - **** starting TC_LinkToIOSApp  *****
-15:58:39.368 [main] DEBUG utils.BasePage - application logs started......
-15:58:40.428 [main] INFO  utils.BasePage - Navigate to website and click IOS App button and verify the link 
-15:58:42.483 [main] DEBUG utils.BasePage - application logs end.......
-15:58:42.484 [main] INFO  utils.BasePage - **** finished TC_OrderHistory *****
-16:19:15.061 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml"
-16:19:15.195 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.beforeMethode()[pri:0, instance:null] 1881771703
-16:19:15.196 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-16:19:15.197 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-16:19:15.197 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-16:19:15.198 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-16:19:15.198 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.afterMethode()[pri:0, instance:null] 145901492
-16:19:15.198 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-16:19:15.198 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-16:19:15.198 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-16:19:15.198 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-16:19:15.202 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE LinkToAndroidAppTest.linkToAndroidApp()[pri:0, instance:taptastytestfooter.LinkToAndroidAppTest@6aa3a905] -2035474607
-16:19:15.202 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+16:20:16.365 [main] INFO  utils.BasePage - **** starting TC_ LinkToAndroidApp  *****
+16:20:16.365 [main] DEBUG utils.BasePage - application logs started......
+16:20:17.304 [main] INFO  utils.BasePage - Navigate to website and click IOS App button and verify the link 
+16:20:19.653 [main] DEBUG utils.BasePage - application logs end.......
+16:20:19.653 [main] INFO  utils.BasePage - **** finished TC_ LinkToAndroidApp *****
+16:32:02.300 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml"
+16:32:02.436 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.beforeMethode()[pri:0, instance:null] 1881771703
+16:32:02.437 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+16:32:02.439 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+16:32:02.439 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+16:32:02.439 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+16:32:02.439 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BasePage.afterMethode()[pri:0, instance:null] 145901492
+16:32:02.440 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+16:32:02.440 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+16:32:02.440 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+16:32:02.440 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+16:32:02.443 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE ContactSectionTest.contactSection()[pri:0, instance:taptastytestfooter.ContactSectionTest@126945f9] -376531707
+16:32:02.443 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+16:32:02.443 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+16:32:02.443 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+16:32:02.443 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+16:32:02.449 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+16:32:22.339 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml"

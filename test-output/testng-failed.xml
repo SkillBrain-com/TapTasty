@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="TapTasty(failed)">
     <classes>
-      <class name="taptastytestfooter.LinkToIOSAppTest">
+      <class name="taptastytestfooter.ContactSectionTest">
         <methods>
-          <include name="linkToIOSApp"/>
           <include name="afterMethode"/>
+          <include name="contactSection"/>
           <include name="beforeMethode"/>
         </methods>
-      </class> <!-- taptastytestfooter.LinkToIOSAppTest -->
+      </class> <!-- taptastytestfooter.ContactSectionTest -->
     </classes>
   </test> <!-- TapTasty(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->
